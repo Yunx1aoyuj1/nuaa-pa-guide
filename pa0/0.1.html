@@ -1,0 +1,868 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>0.1 Installing a GNU/Linux VM · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-panel/icons.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-panel/panel.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0.2.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    课程设计介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../read-before-starting.html">
+            
+                <a href="../read-before-starting.html">
+            
+                    
+                    实验前必读
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    PA0 - 开发环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="0.1.html">
+            
+                <a href="0.1.html">
+            
+                    
+                    0.1 Installing a GNU/Linux VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="0.2.html">
+            
+                <a href="0.2.html">
+            
+                    
+                    0.2 First Step into Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="0.3.html">
+            
+                <a href="0.3.html">
+            
+                    
+                    0.3 Installing Basic Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="0.4.html">
+            
+                <a href="0.4.html">
+            
+                    
+                    0.4 Installing More Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="0.5.html">
+            
+                <a href="0.5.html">
+            
+                    
+                    0.5 More Exploration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="0.6.html">
+            
+                <a href="0.6.html">
+            
+                    
+                    0.6 Logging in and Transferring Files via SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="0.7.html">
+            
+                <a href="0.7.html">
+            
+                    
+                    0.7 Acquiring Source Code for PAs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../pa1/">
+            
+                <a href="../pa1/">
+            
+                    
+                    PA1 - 最简单的计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../pa1/1.1.html">
+            
+                <a href="../pa1/1.1.html">
+            
+                    
+                    1.1 简易调试器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../pa1/1.2.html">
+            
+                <a href="../pa1/1.2.html">
+            
+                    
+                    1.2 表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../pa1/1.3.html">
+            
+                <a href="../pa1/1.3.html">
+            
+                    
+                    1.3 监视点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../pa2/">
+            
+                <a href="../pa2/">
+            
+                    
+                    PA2 - 冯诺依曼计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../pa2/2.1.html">
+            
+                <a href="../pa2/2.1.html">
+            
+                    
+                    2.1 第一个程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../pa2/2.2.html">
+            
+                <a href="../pa2/2.2.html">
+            
+                    
+                    2.2 基本指令集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../pa2/2.3.html">
+            
+                <a href="../pa2/2.3.html">
+            
+                    
+                    2.3 输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../pa3/">
+            
+                <a href="../pa3/">
+            
+                    
+                    PA3 - 异常和分页
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../pa3/3.1.html">
+            
+                <a href="../pa3/3.1.html">
+            
+                    
+                    3.1 异常控制流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../pa3/3.2.html">
+            
+                <a href="../pa3/3.2.html">
+            
+                    
+                    3.2 虚拟地址空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../pa4/">
+            
+                <a href="../pa4/">
+            
+                    
+                    PA4 - 分时多任务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../pa4/4.1.html">
+            
+                <a href="../pa4/4.1.html">
+            
+                    
+                    4.1 上下文切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../pa4/4.2.html">
+            
+                <a href="../pa4/4.2.html">
+            
+                    
+                    4.2 时钟中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../lab3.html">
+            
+                <a href="../lab3.html">
+            
+                    
+                    Lab3 - Cachesim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../others/">
+            
+                <a href="../others/">
+            
+                    
+                    杂项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../others/submit-requirement.html">
+            
+                <a href="../others/submit-requirement.html">
+            
+                    
+                    实验提交要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../others/git-manual.html">
+            
+                <a href="../others/git-manual.html">
+            
+                    
+                    Git 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../others/linux-manual.html">
+            
+                <a href="../others/linux-manual.html">
+            
+                    
+                    Linux 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../others/man-manual.html">
+            
+                <a href="../others/man-manual.html">
+            
+                    
+                    Man 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../others/markdown-manual.html">
+            
+                <a href="../others/markdown-manual.html">
+            
+                    
+                    Markdown 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../others/instruction-example.html">
+            
+                <a href="../others/instruction-example.html">
+            
+                    
+                    指令执行示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../others/how-to-read-i386.html">
+            
+                <a href="../others/how-to-read-i386.html">
+            
+                    
+                    i386 手册阅读指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../others/i386-typo.html">
+            
+                <a href="../others/i386-typo.html">
+            
+                    
+                    i386 手册勘误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.9" data-path="../others/software-suggest.html">
+            
+                <a href="../others/software-suggest.html">
+            
+                    
+                    软件推荐
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >0.1 Installing a GNU/Linux VM</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="installing-a-gnulinux-vm">Installing a GNU/Linux VM</h1>
+<p>PA0 is designed to help you to set up a complete environment for the following PAs. Firstly, a virtual machine is necessary to deal with all PAs and Labs in this term. So you are supposed to install it CAREFULLY and make sure you had set up everything mentioned in the text.</p>
+<p><div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">What you should do in this section</div></div><div class="panel-content"><ol>
+<li>Read the whole text carefully.</li>
+<li>Install software mentioned.</li>
+<li>Install a GNU/Linux VM.</li>
+<li>Answer all the questions given.</li>
+</ol>
+</div></div></p>
+<h2 id="for-gnulinux-users">For GNU/Linux Users</h2>
+<p>It is not necessary for you to install a VM in your system, for the reason that our experiments are based on the GNU/Linux, you may skip this section.</p>
+<h2 id="using-gnulinux-out-of-vms-not-necessary">Using GNU/Linux out of VMs (Not Necessary)</h2>
+<p>It is strongly recommended for you to install a GNU/Linux system in your computer, existing with the other  systems (e.g., Windows) installed already, to acquire the maximum running efficiency of your computer. But this seems too complex for you, so we just tell you this but not provide more information. If you&apos;re interested, you may search the Internet. <strong><em>If you had done that, you may get more scores in this part PA0.</em></strong></p>
+<p>Note that if you had done this, you need also write a report, read all of the remaining text and complete all practices in PA0. However, you don&apos;t need to perform operations related to OS itself but to install the required tools and environment.</p>
+<h2 id="fbi-warning">FBI WARNING</h2>
+<p>As you started doing PAs and labs, please DO NOT CHANGE ANYTHING in your operating systems (such as upgrading, re-installing your os, changing some key settings) or you might be suffering from a disease that you will LOST EVERYTHING you had done to the VM, or more seriously, your code.</p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x5F00;&#x59CB;&#x5B9E;&#x9A8C;&#x540E;&#x4E0D;&#x8981;&#x5BF9;&#x7535;&#x8111;&#x505A;&#x5947;&#x602A;&#x7684;&#x4E8B;&#x60C5;&#xFF01;&#xFF01;</div></div><div class="panel-content"><p>&#x5386;&#x5C4A;&#x5747;&#x51FA;&#x73B0;&#x6709;&#x5B66;&#x751F;&#x5728;&#x5F00;&#x59CB;&#x672C;&#x5B9E;&#x9A8C;&#x540E;&#x5BF9;&#x7535;&#x8111;&#x8FDB;&#x884C;&#x4E00;&#x4E9B;&#x83AB;&#x540D;&#x5176;&#x5999;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x5BFC;&#x81F4;&#x8F7B;&#x5219;&#x865A;&#x62DF;&#x673A;&#x5B9E;&#x9A8C;&#x73AF;&#x5883;&#x635F;&#x574F;&#xFF0C;&#x91CD;&#x5219;&#x5199;&#x8FC7;&#x7684;&#x4EE3;&#x7801;&#x4ED8;&#x4E4B;&#x4E00;&#x70AC;&#xFF0C;&#x4E25;&#x91CD;&#x5F71;&#x54CD;&#x6210;&#x7EE9;&#x3002;&#x6240;&#x4EE5;&#x5728;&#x6B64;&#x63D0;&#x9192;&#x540C;&#x5B66;&#x4EEC;&#xFF0C;&#x5728;&#x5F00;&#x59CB;&#x8FDB;&#x884C;&#x5B9E;&#x9A8C;&#x540E;&#xFF0C;&#x4E0D;&#x8981;&#x968F;&#x610F;&#x8C03;&#x6574;&#x7535;&#x8111;&#x7684;&#x914D;&#x7F6E;&#xFF0C;&#x4E0B;&#x9762;&#x5217;&#x4E3E;&#x4E00;&#x4E9B;&#x53EF;&#x80FD;&#x5BF9;&#x7535;&#x8111;&#x4EA7;&#x751F;&#x5F71;&#x54CD;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x5305;&#x62EC;&#x4F46;&#x4E0D;&#x9650;&#x4E8E;&#xFF1A;</p>
+<ol>
+<li>&#x5BF9; Windows &#x8FDB;&#x884C;&#x91CD;&#x88C5;&#xFF0C;&#x5347;&#x7EA7;&#x6216;&#x66F4;&#x65B0;&#xFF0C;&#x54EA;&#x6015;&#x662F;&#x6253;&#x8865;&#x4E01;&#xFF1B;</li>
+<li>&#x5B89;&#x88C5;&#x6216;&#x5378;&#x8F7D;&#x4E00;&#x4E9B;&#x53EF;&#x80FD;&#x5BF9; Windows &#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x9020;&#x6210;&#x5F71;&#x54CD;&#x7684;&#x7EC4;&#x4EF6;&#x6216;&#x8F6F;&#x4EF6;&#xFF0C;&#x5982; Office&#xFF0C;Visual Studio &#x7B49;&#xFF08;&#x5F53;&#x7136;&#x4E0D;&#x662F;&#x8BF4;&#x7535;&#x8111;&#x91CC;&#x9762;&#x4E0D;&#x80FD;&#x6709;&#xFF0C;&#x662F;&#x6307;&#x4E0D;&#x5728;&#x5B9E;&#x9A8C;&#x5F00;&#x59CB;&#x540E;&#x53BB;&#x5B89;&#x88C5;&#x6216;&#x5378;&#x8F7D;&#xFF0C;&#x8BF7;&#x4ED4;&#x7EC6;&#x7406;&#x89E3;&#xFF09;&#xFF1B;</li>
+<li>&#x4F5C;&#x6B7B;&#x5728;&#x5B8C;&#x6210;&#x865A;&#x62DF;&#x673A;&#x914D;&#x7F6E;&#x4EE5;&#x540E;&#x53BB;&#x88C5;&#x53CC;&#x7CFB;&#x7EDF;&#x7B49;&#x64CD;&#x4F5C;&#xFF1B;</li>
+<li>&#x5BF9;&#x865A;&#x62DF;&#x673A;&#x8F6F;&#x4EF6;&#x8FDB;&#x884C;&#x5347;&#x7EA7;&#x3001;&#x91CD;&#x88C5;&#x7B49;&#x64CD;&#x4F5C;&#x3002;</li>
+</ol>
+</div></div></p>
+<h2 id="installing-oracle-virtual-box">Installing Oracle Virtual Box</h2>
+<p>You may found the latest version of Virtual Box on <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">this page in the website</a>. If you are Windows user, please download the <code>Windows hosts</code> and install it. If you are using a mac with OS X system, please download the <code>OS X hosts</code> then install it. <strong>If you had chosen to use a Linux system on the physical machine, this section may be skipped.</strong></p>
+<p>If you have trouble installing it to your computer, please take a look at the <a href="https://www.virtualbox.org/manual/" target="_blank">online manual of Oracle Virtual Box</a> before asking others.</p>
+<h3 id="warning">WARNING</h3>
+<p><strong><em>It is not recommended for you to use a VPS (or ECS like Aliyun, Tencent Cloud, etc.) to do experiments</em></strong> because the way a VPS run (which usually runs in a container rather than on real hardware environment) is not the same as a virtual machine (which runs in the virtualized hardware environment) and you might encounter with some unknown problems when you doing your experiments. What&apos;s more, servers are designed to deploy projects rather than developing  projects so it is not wise to use it.</p>
+<p><div class="panel panel-warning"><div class="panel-heading"><div class="panel-icon"><i class="icon-warning"></i></div><div class="panel-title">&#x4E0D;&#x8981;&#x4F7F;&#x7528;&#x4E91;&#x670D;&#x52A1;&#x5668;&#x505A;&#x5B9E;&#x9A8C;&#xFF01;</div></div><div class="panel-content"><p>&#x8BF7;&#x4E0D;&#x8981;&#x4F7F;&#x7528;&#x963F;&#x91CC;&#x4E91;&#x3001;&#x817E;&#x8BAF;&#x4E91;&#x7B49; VPS&#xFF08;&#x6216; ECS&#xFF09;&#x8FDB;&#x884C;&#x5B9E;&#x9A8C;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x4E91;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5E95;&#x5C42;&#x5B9E;&#x73B0;&#x548C;&#x865A;&#x62DF;&#x673A;&#x5E76;&#x4E0D;&#x76F8;&#x540C;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x9002;&#x7528;&#x4E8E;&#x90E8;&#x7F72;&#x9879;&#x76EE;&#x800C;&#x4E0D;&#x662F;&#x5F00;&#x53D1;&#x9879;&#x76EE;&#x3002;&#x4F7F;&#x7528;&#x4E91;&#x670D;&#x52A1;&#x5668;&#x505A;&#x5B9E;&#x9A8C;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;&#x90E8;&#x5206;&#x547D;&#x4EE4;&#x53C2;&#x6570;&#x4E0D;&#x540C;&#xFF0C;&#x6216;&#x8005;&#x7CFB;&#x7EDF;&#x4E0D;&#x517C;&#x5BB9;&#x5B9E;&#x9A8C;&#x73AF;&#x5883;&#x7B49;&#x95EE;&#x9898;&#x3002;</p>
+</div></div></p>
+<h2 id="getting-a-gnulinux-package">Getting a GNU/Linux package</h2>
+<p>Only <code>Debian</code> and <code>Ubuntu</code> systems are supported in our experiments and you should choose <code>Debian</code> as your environment in most circumstances to avoid unknown problems. So don&apos;t try to use other Linux systems (such as CentOS, Red Hat) to do experiments, not for the reason that it&apos;s unable to use, but you will encounter with unknown problems running PAs and labs.</p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">Linux and Linux?</div></div><div class="panel-content"><p>Debian and Ubuntu, even CentOS and Red Hat mentioned above are all different kinds of Linux. What are the common and different points betweent them? Please search the Internet and answer this.</p>
+</div></div></p>
+<p>You may get the <strong>latest version</strong> of Debian <a href="https://www.debian.org/releases/stable/debian-installer/" target="_blank">here on the official website</a>. But we recommend you to use a mirror source in the mainland of China, for some reasons you might be already aware of. You may download one in the following mirror list. The name of the file you should download looks like <code>debian-?.?.?-i386-netinst.iso</code>, the <code>?</code> is varied with the update of new versions.</p>
+<blockquote>
+<p>Netease Mirror:</p>
+<p><a href="http://mirrors.163.com/debian-cd/current/i386/iso-cd/" target="_blank">http://mirrors.163.com/debian-cd/current/i386/iso-cd/</a></p>
+<p>Aliyun Mirror&#xFF1A;</p>
+<p><a href="http://mirrors.aliyun.com/debian-cd/current/i386/iso-cd/" target="_blank">http://mirrors.aliyun.com/debian-cd/current/i386/iso-cd/</a></p>
+</blockquote>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">Only 32-bit envirnoment is accepted</div></div><div class="panel-content"><p>Note that wherever you download the package from, please choose the <code>32-bit</code> version (or you may see <code>i386</code> version on the website). If you install a <code>64-bit</code> version (the same meaning of <code>amd64</code>), you will be unable to complete labs later. It&apos;s the same if you are trying to download Ubuntu as your experiment environment although we don&apos;t hope you to do that. By the way, Ubuntu is now not providing 32-bit versions after Ubuntu 16.04.</p>
+</div></div></p>
+<h2 id="creating-a-virtual-machine">Creating a Virtual Machine</h2>
+<p>Now we will create a new virtual machine, and what you should do is to read text below carefully and operate without skipping any step or you may fail to install it. From this part, we will install a Debian 9.6.0 VM for example.</p>
+<ol>
+<li><p>Launch the <code>Oracle VM VirtualBox Manager</code>.</p>
+</li>
+<li><p>Click the <code>New</code> button on the interface and a guide form will appear to help you complete the process.</p>
+</li>
+<li><p><strong>Name and operating system.</strong> You may set any name for the virtual machine, such as <code>ics</code> or something. For type, please choose <code>Linux</code>. For version, you should choose the one best fits the OS you&apos;re installing, here we choose <code>Debian (32-bit)</code>. Then click <code>Next</code>.</p>
+</li>
+<li><p><strong>Memory size.</strong> Just leaving the default size is okay, but we recommend you to set an value not less than <code>1024MB</code> or you may feel that the machine is running slowly. Then click <code>Next</code>.</p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">Can&apos;t memory be larger?</div></div><div class="panel-content"><p>   Can the size of memory be as large as possible? There&apos;s a limitation of 4GB for 32-bit operating systems, why? (Hint: Architecture and addressing)</p>
+</div></div></p>
+</li>
+<li><p><strong>Hard disk.</strong> Choose <code>Create a virtual hard disk now</code> to create a hard disk for the VM or there will be no space available to install OS in. Then click <code>Create</code>.</p>
+<ol>
+<li><strong>Hard disk file type.</strong> Leave the default selection, <code>VDI (VirtualBox Disk Image)</code> and click <code>Next</code>.</li>
+<li><strong>Storage on physical hard disk.</strong> This step will set the type VirtualBox allocate the image file. Leave the default selection, <code>Dynamically allocated</code>. In this way, it will not occupy too much space on your physical disk. Then click <code>Next</code>.</li>
+<li><strong>File location and size.</strong> This step will set where the image file is stored and the maximum size of it. Just leaving the default settings is okay, but you may name it as you want. Note that don&apos;t choose a path which includes non-English characters (e.g. D:\&#x865A;&#x62DF;&#x673A;, E:\ics*disk, etc.). For size, 8GB is enough. Then click <code>Create</code>.</li>
+</ol>
+</li>
+</ol>
+<p>Now you can see a new virtual machine on the sidebar. If you try to run the VM now, you may get a message that telling you there&apos;s no bootable medium found.</p>
+<h2 id="installing-operating-system-on-the-vm">Installing Operating System on the VM</h2>
+<p>In this section, we will lead you to install Debian on the newly created VM.</p>
+<h3 id="load-debian-installation-image">Load Debian Installation Image</h3>
+<ol>
+<li>Select the newly created VM on the sidebar, and choose <code>Settings</code> on the toolbar. (If you feel the window is too small, you can click <strong>View</strong>  in the menu bar click <strong>Virtual Screen 1</strong>  and  select a suitable one.)</li>
+<li>Select <code>Storage</code> and then select the <code>Empty</code> item with a CD icon below the <code>Controller: IDE</code> in the Storage Device panel. Next, click the CD icon in the Attributes panel.</li>
+<li>Click <code>Choose Virtual Optical Disk File...</code> and a form will appear to allow you choose the image file. Just navigate to the folder you save the image file downloaded before and select the image file (<code>.iso</code> format) you downloaded. Click <code>Open</code>.</li>
+<li>Click <code>OK</code> on the bottom of Stroage interface.</li>
+<li>Now select the VM just created on the sidebar and click <code>Start</code> on the toolbar. If every step in this section is done correctly, you will see the <code>Debian GNU/Linux installer boot menu</code> on the screen of the VM. <strong>Note that if your pointer is captured by the VM, you may release it by pressing <code>Right Ctrl</code></strong>.</li>
+<li>Select the <code>Graphical install</code> using up and down keys on the keyboard, and press Enter.(&#x5982;&#x679C;&#x4F60;&#x9009;&#x62E9;&#x4E4B;&#x540E;&#x65E0;&#x6CD5;&#x8FDB;&#x5165;&#x4E0B;&#x4E00;&#x6B65;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x4F60;&#x4EEC;&#x7535;&#x8111;&#x5728;BIOS&#x91CC;&#x7684;&#x865A;&#x62DF;&#x5316;&#x6CA1;&#x6709;&#x5F00;&#xFF0C;&#x8BF7;&#x6839;&#x636E;&#x4F60;&#x7535;&#x8111;&#x7684;&#x673A;&#x578B;&#x67E5;&#x9605;&#x76F8;&#x5173;&#x8D44;&#x6599;&#xFF0C;&#x5F00;&#x542F;&#x865A;&#x62DF;&#x5316;)</li>
+<li>You will see the <code>Select a language</code> on the screen and the following steps will be described in the next section.</li>
+</ol>
+<h3 id="installing-debian-in-the-vm">Installing Debian in the VM</h3>
+<p><strong>AT FIRST, please <em>CUT DOWN THE INTERNET CONNECTION</em> of VM or you will spend much time waiting for the updates!</strong> To cut down the connection, please right click the icon which seems like two screens on the right bottom of the status bar then click <code>Connect Network Adapter</code> and you will see the icon become disabled.</p>
+<p><div class="panel panel-warning"><div class="panel-heading"><div class="panel-icon"><i class="icon-warning"></i></div><div class="panel-title">&#x5728;&#x65AD;&#x7F51;&#x73AF;&#x5883;&#x4E0B;&#x5B89;&#x88C5;</div></div><div class="panel-content"><p>&#x56E0;&#x4E3A;&#x56FD;&#x5185;&#x7F51;&#x7EDC;&#x73AF;&#x5883;&#x4E0D;&#x4F73;&#xFF0C;&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x4F1A;&#x81EA;&#x52A8;&#x8FDE;&#x63A5;&#x5230;&#x56FD;&#x5916;&#x7684;&#x4E0B;&#x8F7D;&#x70B9;&#x4E0B;&#x8F7D;&#x4E00;&#x4E9B;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x66F4;&#x65B0;&#xFF0C;&#x7136;&#x800C;&#x8FD9;&#x4E2A;&#x8FDE;&#x63A5;&#x6709;&#x65F6;&#x4E0D;&#x80FD;&#x6B63;&#x5E38;&#x5EFA;&#x7ACB;&#xFF0C;&#x8FD9;&#x6837;&#x4EE5;&#x6765;&#x5C31;&#x4F1A;&#x82B1;&#x8D39;&#x5F88;&#x591A;&#x65F6;&#x95F4;&#x53CD;&#x590D;&#x8FDB;&#x884C;&#x5F88;&#x591A;&#x5931;&#x8D25;&#x7684;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#xFF0C;&#x5BFC;&#x81F4;&#x6B63;&#x5E38;&#x7684;&#x5B89;&#x88C5;&#x6D41;&#x7A0B;&#x963B;&#x585E;&#xFF0C;&#x803D;&#x8BEF;&#x540C;&#x5B66;&#x4EEC;&#x7684;&#x5B9D;&#x8D35;&#x65F6;&#x95F4;&#xFF0C;&#x6240;&#x4EE5;&#x8BF7;&#x52A1;&#x5FC5;&#x5148;&#x65AD;&#x7F51;&#xFF0C;&#x518D;&#x7EE7;&#x7EED;&#x672C;&#x8282;&#x7684;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#xFF01;&#x867D;&#x7136;&#x8FD9;&#x6837;&#x7684;&#x5B89;&#x88C5;&#x6D41;&#x7A0B;&#x5C06;&#x5BFC;&#x81F4;&#x9996;&#x6B21;&#x5F00;&#x673A;&#x6CA1;&#x6709;&#x7F51;&#x7EDC;&#xFF0C;&#x4F46;&#x662F;&#x6211;&#x4EEC;&#x4F1A;&#x5E26;&#x9886;&#x540C;&#x5B66;&#x4EEC;&#x89E3;&#x51B3;&#x8BE5;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x7ECF;&#x5B9E;&#x9645;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E0D;&#x65AD;&#x7F51;&#x5B89;&#x88C5;&#x5728;&#x7F51;&#x7EDC;&#x6761;&#x4EF6;&#x8F83;&#x597D;&#x65F6;&#x53EF;&#x884C;&#x3002;&#x4F46;&#x662F;&#x8FD9;&#x975E;&#x5E38;&#x4F9D;&#x8D56;&#x4F60;&#x76EE;&#x524D;&#x6240;&#x5904;&#x4E8E;&#x7684;&#x7F51;&#x7EDC;&#x73AF;&#x5883;&#xFF0C;&#x6709;&#x8F83;&#x5F3A;&#x7684;&#x8FD0;&#x6C14;&#x6210;&#x5206;&#xFF0C;&#x4E0D;&#x80FD;&#x4FDD;&#x8BC1;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x80FD;&#x5728;&#x6709;&#x7F51;&#x73AF;&#x5883;&#x4E0B;&#x987A;&#x5229;&#x5B89;&#x88C5;&#xFF08;&#x63D0;&#x793A;&#xFF1A;&#x7F51;&#x7EDC;&#x73AF;&#x5883;&#x2260;&#x4E0B;&#x8F7D;&#x901F;&#x5EA6;&#x2260;&#x7F51;&#x7EDC;&#x5EF6;&#x8FDF;&#xFF09;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x82E5;&#x5C1D;&#x8BD5;&#x8054;&#x7F51;&#x5B89;&#x88C5;&#xFF0C;&#x8FDB;&#x884C;&#x5230;&#x5B89;&#x88C5;&#x7EC4;&#x4EF6;&#x65F6;&#xFF0C;&#x52A1;&#x5FC5;&#x53D6;&#x6D88;&#x52FE;&#x9009;&#x5B89;&#x88C5;&#xFF0C;&#x5426;&#x5219;&#x6574;&#x4E2A;&#x5B89;&#x88C5;&#x8FDB;&#x5EA6;&#x5FC5;&#x88AB;&#x5361;&#x6B7B;&#x3002;</p>
+<p>&#x53E6;&#x5916;&#xFF0C;&#x8054;&#x7F51;&#x5B89;&#x88C5;&#x7684;&#x540C;&#x5B66;&#xFF0C;&#x9664;&#x4E86;&#x4F4D;&#x4E8E;<a href="0.4.html">&#x8FD9;&#x91CC;</a>&#x7684; <code>Configuring the Network</code> &#x56E0;&#x4E3A;&#x7F51;&#x7EDC;&#x73AF;&#x5883;&#x6B63;&#x5E38;&#x53EF;&#x4EE5;&#x8DF3;&#x8FC7;&#x4EE5;&#x5916;&#xFF0C;&#x5176;&#x4F59;&#x6240;&#x6709; PA0 &#x7684;&#x6B65;&#x9AA4;&#x90FD;&#x4E0D;&#x53EF;&#x4EE5;&#x8DF3;&#x8FC7;&#x3002;</p>
+</div></div></p>
+<ol>
+<li><p><strong>Select a language.</strong> Select <code>English - English</code> and click <code>Continue</code>. Note that don&apos;t select Chinese (Simplified or Traditional) because there&apos;s some potential problems while using a Chinese character set based OS.</p>
+</li>
+<li><p><strong>Select your location.</strong> Select <code>other -&gt; Asia -&gt; China</code>.</p>
+</li>
+<li><p><strong>Configure locales.</strong> Just leave the default settings (<code>United States - en_US.UTF-8</code>) and click <code>Continue</code>.</p>
+</li>
+<li><p><strong>Configure the keyboard</strong>. Just leave the default settings (<code>American English</code>) and click <code>Continue</code>.</p>
+</li>
+<li><p><strong>Load installer components from CD.</strong> Just wait.</p>
+</li>
+<li><p><strong>Configure the network.</strong>  Just wait for a moment. </p>
+<ol>
+<li><strong>Network autofiguration failed.</strong> We have cut down the network at the beginning, so the installer is unable to detect the network. Click <code>Continue</code>, regardless of the warning message.</li>
+<li><strong>Network configuration method</strong>: Select <code>Do not configure the network at this time</code> and click <code>Continue</code>. We will configure it in the next section.</li>
+<li><strong>Hostname</strong>: Leave the default settings (<code>debian</code>) and click <code>continue</code>.</li>
+</ol>
+</li>
+<li><p><strong>Set up users and passwords.</strong> Here we are going to create accounts of the system, it&apos;s normally recommended to set complex passwords but here we don&apos;t force you to do that for we are just for experimental usage.</p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4F7F;&#x7528;&#x771F;&#x540D;&#x6C49;&#x8BED;&#x62FC;&#x97F3;&#x4F5C;&#x4E3A;&#x7528;&#x6237;&#x540D;</div></div><div class="panel-content"><p>   &#x4E3A;&#x4E86;&#x4FDD;&#x8BC1;&#x5927;&#x5BB6;&#x7684;&#x5B9E;&#x9A8C;&#x662F;&#x81EA;&#x5DF1;&#x72EC;&#x7ACB;&#x5B8C;&#x6210;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x6C42;&#x5927;&#x5BB6;&#x4F7F;&#x7528;&#x81EA;&#x5DF1;&#x771F;&#x540D;&#x7684;&#x6C49;&#x8BED;&#x62FC;&#x97F3;&#x4F5C;&#x4E3A;&#x975E; root &#x7528;&#x6237;&#x7684;&#x7528;&#x6237;&#x540D;&#x8FDB;&#x884C;&#x5B9E;&#x9A8C;&#xFF0C;&#x5E76;&#x5728;&#x5B9E;&#x9A8C;&#x62A5;&#x544A;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x622A;&#x56FE;&#x4E2D;&#x52A0;&#x4EE5;&#x4F53;&#x73B0;&#x3002;&#x5982;&#x679C;&#x6709;&#x540C;&#x5B66;&#x662F;&#x672C;&#x6765;&#x5C31;&#x4F7F;&#x7528; Linux &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4F5C;&#x4E3A;&#x684C;&#x9762;&#xFF0C;&#x53EF;&#x4EE5;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x6EE1;&#x8DB3;&#x4E0A;&#x8FF0;&#x8981;&#x6C42;&#x7684;&#x7528;&#x6237;&#x540D;&#x7684;&#x65B0;&#x7528;&#x6237;&#x8FDB;&#x884C;&#x5B9E;&#x9A8C;&#x3002;</p>
+</div></div></p>
+<ol>
+<li><strong>Root password</strong>: <code>Root</code> account is a very important in the system, <strong>please keep the password you set in your mind all the time or you will be unable to do most of things in the future!</strong></li>
+<li><strong>Full name for the new user</strong>: to trace the process of the experiment, we make an agreement that your username should be set as your own real name. For example, <code>zhangsan</code> for <code>&#x5F20;&#x4E09;</code> or <code>wangermazi</code> for <code>&#x738B;&#x4E8C;&#x9EBB;&#x5B50;</code>, etc.</li>
+<li><strong>Username for your account</strong>: just set the same to the user name in the last step.</li>
+<li><strong>Choose a password for the new user</strong>: this password is the one for the non-root user we created just now. A simple password will be fine.</li>
+</ol>
+</li>
+<li><p><strong>Configure the clock.</strong> With no network set, this step will be skipped in a flash.</p>
+</li>
+<li><p><strong>Partition disks.</strong> This step will lead you to partition the disk to use the disk space.</p>
+<ol>
+<li><strong>Partitioning method</strong>: Guided - use entire disk.</li>
+<li><strong>Select disk to partition</strong>: choose the only disk in the list.</li>
+<li><strong>Partitioning scheme</strong>: All files in one partition (recommended for new users).</li>
+<li><strong>Overview</strong>: you can see all partitioning information here. Make sure nothing goes wrong and select <code>Finish partitioning and write changes to disk</code> then click <code>Continue</code>.</li>
+<li><strong>Write the changes to disks?</strong> Select <code>Yes</code> and click <code>Continue</code>.</li>
+</ol>
+</li>
+<li><p><strong>Install the base system.</strong> Just wait.</p>
+<ul>
+<li><strong>Scan another CD or DVD?</strong> Select <code>No</code> and  click <code>Continue</code>.</li>
+</ul>
+</li>
+<li><p><strong>Configure the package manager.</strong> We don&apos;t need to use the mirrors provided for network issues, we will configure it in the future so do the following steps:</p>
+<ul>
+<li><strong>Continue without a network mirror?</strong> Select <code>Yes</code> and click <code>Continue</code>.</li>
+</ul>
+</li>
+<li><p><strong>Participate in the package usage survey?</strong> Any choice will be fine.</p>
+</li>
+<li><p><strong>Software selection.</strong> Make sure the <code>standard system utilities</code> is selected and click <code>Continue</code>. Then just wait.</p>
+</li>
+<li><p><strong>Install the GRUB boot loader on a hard disk.</strong> </p>
+<ol>
+<li><strong>Install the GRUB boot loader to the master boot record?</strong> Select <code>Yes</code> and click <code>Continue</code>.</li>
+<li><strong>Device for boot loader installation</strong>: Select <code>/dev/sda</code> and click <code>Continue</code>.</li>
+</ol>
+</li>
+<li><p><strong>Finish the installation.</strong>  Congratulations! You&apos;ve installed Debian successfully. Before clicking <code>Continue</code> to reboot the VM, you should check items below:</p>
+<ul>
+<li>Don&apos;t forget to turn on the network connection.</li>
+<li>Make sure the CD is removed. The installer might remove it automatically, but you should check whether or not at the right bottom of the status bar where there&apos;s a CD icon.</li>
+</ul>
+</li>
+</ol>
+<p>Don&apos;t touch the keyboard when the GRUB interface appears and the system will boot by itself until you see the prompt:</p>
+<pre><code>Debian GNU/Linux 9 debian tty1
+
+debian login:_
+</code></pre><p>This means the installation is successful and we will guide you to explore it in the next section.</p>
+<hr>
+<p><em>That&apos;s everything in PA0.1.</em></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: PA0 - 开发环境配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0.2.html" class="navigation navigation-next " aria-label="Next page: 0.2 First Step into Linux">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"0.1 Installing a GNU/Linux VM","level":"1.3.1","depth":2,"next":{"title":"0.2 First Step into Linux","level":"1.3.2","depth":2,"path":"pa0/0.2.md","ref":"pa0/0.2.md","articles":[]},"previous":{"title":"PA0 - 开发环境配置","level":"1.3","depth":1,"path":"pa0/README.md","ref":"pa0/README.md","articles":[{"title":"0.1 Installing a GNU/Linux VM","level":"1.3.1","depth":2,"path":"pa0/0.1.md","ref":"pa0/0.1.md","articles":[]},{"title":"0.2 First Step into Linux","level":"1.3.2","depth":2,"path":"pa0/0.2.md","ref":"pa0/0.2.md","articles":[]},{"title":"0.3 Installing Basic Tools","level":"1.3.3","depth":2,"path":"pa0/0.3.md","ref":"pa0/0.3.md","articles":[]},{"title":"0.4 Installing More Tools","level":"1.3.4","depth":2,"path":"pa0/0.4.md","ref":"pa0/0.4.md","articles":[]},{"title":"0.5 More Exploration","level":"1.3.5","depth":2,"path":"pa0/0.5.md","ref":"pa0/0.5.md","articles":[]},{"title":"0.6 Logging in and Transferring Files via SSH","level":"1.3.6","depth":2,"path":"pa0/0.6.md","ref":"pa0/0.6.md","articles":[]},{"title":"0.7 Acquiring Source Code for PAs","level":"1.3.7","depth":2,"path":"pa0/0.7.md","ref":"pa0/0.7.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["panel","-sharing"],"pluginsConfig":{"panel":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"pa0/0.1.md","mtime":"2020-04-24T06:43:52.690Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-24T06:44:42.121Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

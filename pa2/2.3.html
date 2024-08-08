@@ -1,0 +1,897 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.3 输入输出 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-panel/icons.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-panel/panel.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../pa3/" />
+    
+    
+    <link rel="prev" href="2.2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    课程设计介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../read-before-starting.html">
+            
+                <a href="../read-before-starting.html">
+            
+                    
+                    实验前必读
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../pa0/">
+            
+                <a href="../pa0/">
+            
+                    
+                    PA0 - 开发环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../pa0/0.1.html">
+            
+                <a href="../pa0/0.1.html">
+            
+                    
+                    0.1 Installing a GNU/Linux VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../pa0/0.2.html">
+            
+                <a href="../pa0/0.2.html">
+            
+                    
+                    0.2 First Step into Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../pa0/0.3.html">
+            
+                <a href="../pa0/0.3.html">
+            
+                    
+                    0.3 Installing Basic Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../pa0/0.4.html">
+            
+                <a href="../pa0/0.4.html">
+            
+                    
+                    0.4 Installing More Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../pa0/0.5.html">
+            
+                <a href="../pa0/0.5.html">
+            
+                    
+                    0.5 More Exploration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../pa0/0.6.html">
+            
+                <a href="../pa0/0.6.html">
+            
+                    
+                    0.6 Logging in and Transferring Files via SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../pa0/0.7.html">
+            
+                <a href="../pa0/0.7.html">
+            
+                    
+                    0.7 Acquiring Source Code for PAs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../pa1/">
+            
+                <a href="../pa1/">
+            
+                    
+                    PA1 - 最简单的计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../pa1/1.1.html">
+            
+                <a href="../pa1/1.1.html">
+            
+                    
+                    1.1 简易调试器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../pa1/1.2.html">
+            
+                <a href="../pa1/1.2.html">
+            
+                    
+                    1.2 表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../pa1/1.3.html">
+            
+                <a href="../pa1/1.3.html">
+            
+                    
+                    1.3 监视点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    PA2 - 冯诺依曼计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    2.1 第一个程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    2.2 基本指令集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3" data-path="2.3.html">
+            
+                <a href="2.3.html">
+            
+                    
+                    2.3 输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../pa3/">
+            
+                <a href="../pa3/">
+            
+                    
+                    PA3 - 异常和分页
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../pa3/3.1.html">
+            
+                <a href="../pa3/3.1.html">
+            
+                    
+                    3.1 异常控制流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../pa3/3.2.html">
+            
+                <a href="../pa3/3.2.html">
+            
+                    
+                    3.2 虚拟地址空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../pa4/">
+            
+                <a href="../pa4/">
+            
+                    
+                    PA4 - 分时多任务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../pa4/4.1.html">
+            
+                <a href="../pa4/4.1.html">
+            
+                    
+                    4.1 上下文切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../pa4/4.2.html">
+            
+                <a href="../pa4/4.2.html">
+            
+                    
+                    4.2 时钟中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../lab3.html">
+            
+                <a href="../lab3.html">
+            
+                    
+                    Lab3 - Cachesim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../others/">
+            
+                <a href="../others/">
+            
+                    
+                    杂项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../others/submit-requirement.html">
+            
+                <a href="../others/submit-requirement.html">
+            
+                    
+                    实验提交要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../others/git-manual.html">
+            
+                <a href="../others/git-manual.html">
+            
+                    
+                    Git 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../others/linux-manual.html">
+            
+                <a href="../others/linux-manual.html">
+            
+                    
+                    Linux 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../others/man-manual.html">
+            
+                <a href="../others/man-manual.html">
+            
+                    
+                    Man 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../others/markdown-manual.html">
+            
+                <a href="../others/markdown-manual.html">
+            
+                    
+                    Markdown 入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../others/instruction-example.html">
+            
+                <a href="../others/instruction-example.html">
+            
+                    
+                    指令执行示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../others/how-to-read-i386.html">
+            
+                <a href="../others/how-to-read-i386.html">
+            
+                    
+                    i386 手册阅读指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../others/i386-typo.html">
+            
+                <a href="../others/i386-typo.html">
+            
+                    
+                    i386 手册勘误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.9" data-path="../others/software-suggest.html">
+            
+                <a href="../others/software-suggest.html">
+            
+                    
+                    软件推荐
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >2.3 输入输出</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8F93;&#x5165;&#x8F93;&#x51FA;">&#x8F93;&#x5165;&#x8F93;&#x51FA;</h1>
+<p> <div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">&#x4F60;&#x5E94;&#x5728;&#x672C;&#x8282;&#x4E2D;&#x5B8C;&#x6210;&#x4EE5;&#x4E0B;&#x4EFB;&#x52A1;</div></div><div class="panel-content"><ol>
+<li>&#x7531;&#x4E8E;&#x5185;&#x5BB9;&#x6BD4;&#x8F83;&#x751F;&#x758F;&#xFF0C;&#x52A1;&#x5FC5;&#x53CD;&#x590D;&#x4ED4;&#x7EC6;&#x9605;&#x8BFB;&#x672C;&#x8282;&#x5185;&#x5BB9;&#xFF1B;</li>
+<li>&#x8DDF;&#x968F;&#x8BB2;&#x4E49;&#x548C;&#x601D;&#x8003;&#x9898;&#x7684;&#x5F15;&#x5BFC;&#x9605;&#x8BFB;&#x9879;&#x76EE;&#x4E2D;&#x548C;&#x672C;&#x8282;&#x76F8;&#x5173;&#x7684;&#x6E90;&#x4EE3;&#x7801;&#xFF0C;&#x7406;&#x89E3;&#x5E76;&#x638C;&#x63E1;&#x672C;&#x8282;&#x5927;&#x91CF;&#x4F7F;&#x7528;&#x7684;&#x6846;&#x67B6;&#x51FD;&#x6570;&#xFF08;&#x6216;&#x5B8F;&#xFF09;&#xFF1B;</li>
+<li>&#x5BF9;&#x5B8F;&#x4FDD;&#x6301;&#x9AD8;&#x5EA6;&#x8B66;&#x60D5;&#xFF0C;&#x591A;&#x901A;&#x8FC7;&#x624B;&#x7B97;&#x5B66;&#x4E60;&#x9047;&#x5230;&#x7684;&#x5B8F;&#x5B9A;&#x4E49;&#xFF1B;</li>
+<li>&#x5B9E;&#x73B0;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6307;&#x4EE4;&#xFF1B;</li>
+<li>&#x5B9E;&#x73B0;&#x7B80;&#x5355;&#x7684;&#x8BBE;&#x5907;&#x62BD;&#x8C61;&#xFF1B;</li>
+<li>&#x8DD1;&#x901A; AM &#x4E0B;&#x7684;&#x6307;&#x5B9A;&#x7684;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#xFF1B;</li>
+<li>&#x56DE;&#x7B54;&#x6240;&#x6709;&#x601D;&#x8003;&#x9898;&#xFF08;<strong>&#x90E8;&#x5206;&#x601D;&#x8003;&#x9898;&#x9700;&#x8981;&#x5728;&#x5B8C;&#x5168;&#x9605;&#x8BFB;&#x5B8C;&#x672C;&#x8282;&#x5185;&#x5BB9;&#x540E;&#x56DE;&#x7B54;</strong>&#xFF09;&#xFF1B;</li>
+</ol>
+</div></div></p>
+<p>&#x5C3D;&#x7BA1;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x4E86;&#x82E5;&#x5E72;&#x6761;&#x6307;&#x4EE4;&#x5E76;&#x8FD0;&#x884C;&#x4E86; <code>cputest</code> &#x4E2D;&#x7684;&#x5404;&#x4E2A;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;, &#x53EF;&#x5B83;&#x4EEC;&#x53EA;&#x5728;&#x80CC;&#x540E;&#x9ED8;&#x9ED8;&#x8BA1;&#x7B97;, &#x7528;&#x6237;&#x4EC0;&#x4E48;&#x90FD;&#x770B;&#x4E0D;&#x89C1;. &#x56DE;&#x60F3;&#x5728;&#x4EFB;&#x4F55;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x8BFE;&#x4E0A;&#x6240;&#x505A;&#x7684;&#x7B2C;&#x4E00;&#x4EF6;&#x4E8B;, &#x5F80;&#x5F80;&#x90FD;&#x662F;&#x8BA9;&#x8BA1;&#x7B97;&#x673A;&#x8F93;&#x51FA;&#x4E00;&#x53E5; <code>hello world</code>. &#x800C;&#x5B9E;&#x9645;&#x4E0A;, &#x8F93;&#x5165;&#x8F93;&#x51FA;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x4E0E;&#x5916;&#x754C;&#x4EA4;&#x4E92;&#x7684;&#x57FA;&#x672C;&#x624B;&#x6BB5;, &#x4E5F;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x5FC5;&#x5907;&#x7684;&#x57FA;&#x672C;&#x529F;&#x80FD;. </p>
+<p>&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x8BB0;&#x5F97;&#x8BA1;&#x7B97;&#x673A;&#x521A;&#x542F;&#x52A8;&#x65F6;&#x6267;&#x884C;&#x7684; <a href="https://en.wikipedia.org/wiki/BIOS" target="_blank">BIOS &#x7A0B;&#x5E8F;</a>&#x7684;&#x5168;&#x79F0;&#x662F; <code>Basic Input/Output System</code>, &#x4F60;&#x5C31;&#x4F1A;&#x7406;&#x89E3;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x5BF9;&#x8BA1;&#x7B97;&#x673A;&#x6765;&#x8BF4;&#x662F;&#x591A;&#x4E48;&#x91CD;&#x8981;&#x4E86;.</p>
+<p>&#x5728;&#x771F;&#x5B9E;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;, &#x8F93;&#x5165;&#x8F93;&#x51FA;&#x90FD;&#x662F;&#x7531; <strong>I/O &#x8BBE;&#x5907;</strong>&#x5B8C;&#x6210;&#x7684;&#xFF0C;&#x5176;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#x5F88;&#x5BB9;&#x6613;&#x7406;&#x89E3;. &#x56DE;&#x5FC6;&#x4E00;&#x4E0B;&#x6570;&#x5B57;&#x7535;&#x8DEF;&#x5B9E;&#x9A8C;&#x4E2D;&#x64CD;&#x4F5C;&#x8FC7;&#x7684;&#x82AF;&#x7247;, &#x5176;&#x5B9E; I/O &#x8BBE;&#x5907;&#x4E5F;&#x4E00;&#x6837;&#x662F;&#x4E2A;&#x6570;&#x5B57;&#x7535;&#x8DEF;. &#x5F53;&#x6211;&#x4EEC;&#x5411;&#x8BBE;&#x5907;&#x53D1;&#x9001;&#x4E00;&#x4E9B;&#x7279;&#x5B9A;&#x542B;&#x4E49;&#x7684;&#x6570;&#x5B57;&#x4FE1;&#x53F7;&#x65F6;&#xFF0C;&#x8BBE;&#x5907;&#x5C31;&#x80FD;&#x901A;&#x8FC7;&#x5F15;&#x811A;&#x8FDE;&#x901A;&#x7684;&#x7EC4;&#x5408;&#x5F97;&#x77E5;&#x8BE5;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;. &#x7B49;&#x4E00;&#x4E0B;, <strong>&#x901A;&#x8FC7;&#x4E00;&#x4E9B;&#x4FE1;&#x53F7;&#x6765;&#x6307;&#x5BFC;&#x8BBE;&#x5907;&#x5DE5;&#x4F5C;</strong>&#x4E0D;&#x5C31;&#x7C7B;&#x4F3C;&#x4E8E;<strong>&#x901A;&#x8FC7;&#x7A0B;&#x5E8F;&#x6307;&#x4EE4;&#x6307;&#x5BFC;CPU&#x5DE5;&#x4F5C;</strong>&#x5417;&#xFF1F;</p>
+<p>&#x7684;&#x786E;, &#x8BBE;&#x5907;&#x4E0E; CPU &#x7C7B;&#x4F3C;, &#x540C;&#x6837;&#x62E5;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x72B6;&#x6001;&#x5BC4;&#x5B58;&#x5668; (&#x7C7B;&#x6BD4; CPU &#x5BC4;&#x5B58;&#x5668;) &#x548C;&#x529F;&#x80FD;&#x90E8;&#x4EF6; (&#x7C7B;&#x6BD4;&#x8FD0;&#x7B97;&#x5668;) , &#x5F53;&#x7136;&#x4E0D;&#x540C;&#x7684;&#x8BBE;&#x5907;&#x5176;&#x529F;&#x80FD;&#x90E8;&#x4EF6;&#x5404;&#x6709;&#x4E0D;&#x540C;. &#x4F8B;&#x5982;&#x952E;&#x76D8;&#x6709;&#x4E00;&#x4E2A;&#x628A;&#x6309;&#x952E;&#x7684;&#x6A21;&#x62DF;&#x4FE1;&#x53F7;&#x8F6C;&#x6362;&#x6210;&#x626B;&#x63CF;&#x7801;&#x7684;&#x90E8;&#x4EF6;, &#x800C; <a href="https://en.wikipedia.org/wiki/Video_Graphics_Array" target="_blank">VGA</a> &#x5219;&#x6709;&#x4E00;&#x4E2A;&#x628A;&#x50CF;&#x7D20;&#x989C;&#x8272;&#x4FE1;&#x606F;&#x8F6C;&#x6362;&#x6210;&#x663E;&#x793A;&#x5668;&#x6A21;&#x62DF;&#x4FE1;&#x53F7;&#x7684;&#x90E8;&#x4EF6;. </p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">&#x8BBE;&#x5907;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#xFF1F;</div></div><div class="panel-content"><p>&#x63A7;&#x5236;&#x8BBE;&#x5907;&#x5DE5;&#x4F5C;&#x7684;&#x6570;&#x5B57;&#x4FE1;&#x53F7;&#x79F0;&#x4E3A;&quot;&#x547D;&#x4EE4;&#x5B57;&quot;, &#x8BBE;&#x5907;&#x7684;&#x5DE5;&#x4F5C;&#x8DDF;CPU&#x6267;&#x884C;&#x6307;&#x4EE4;&#x7684;&#x6D41;&#x7A0B;&#x5F88;&#x50CF;, &#x4E00;&#x6837;&#x9700;&#x8981;&#x63A5;&#x53D7;&#x547D;&#x4EE4;&#x5B57;, &#x7136;&#x540E;&#x8BD1;&#x7801;&#x5E76;&#x6267;&#x884C; ... (&#x4F60;&#x5728;&#x4E4B;&#x524D;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;&#x4E86; CPU &#x6574;&#x4E2A;&#x5DE5;&#x4F5C;&#x65B9;&#x5F0F;, &#x6240;&#x4EE5;&#x8FD9;&#x90E8;&#x5206;&#x5BF9;&#x4F60;&#x6765;&#x8BF4;&#x8FC7;&#x4E8E;&#x719F;&#x6089;&#x4E86;). &#x4E5F;&#x8BB8;&#x552F;&#x4E00;&#x8BA9;&#x4F60;&#x89C9;&#x5F97;&#x795E;&#x79D8;&#x7684;, &#x5C31;&#x662F;&#x8BBE;&#x5907;&#x529F;&#x80FD;&#x90E8;&#x4EF6;&#x4E2D;&#x6A21;/&#x6570; (A/D) &#x8F6C;&#x6362;, &#x6570;&#x6A21; (D/A) &#x8F6C;&#x6362;&#x7B49;&#x5185;&#x90E8;&#x7684;&#x5B9E;&#x73B0;. &#x672C;&#x8BFE;&#x7A0B;&#x4E2D;&#x672A;&#x63D0;&#x4F9B;&#x6709;&#x5173;&#x5B83;&#x4EEC;&#x7684;&#x5B9E;&#x8DF5;, &#x4F46;&#x662F;&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x5728;&#x4E4B;&#x540E;&#x7684;&#x5FAE;&#x673A;&#x539F;&#x7406;&#x4E0E;&#x63A5;&#x53E3;&#x6280;&#x672F;&#x8BFE;&#x7A0B;&#x4E2D;&#x5B66;&#x4E60;&#x8FD9;&#x90E8;&#x5206;&#x7684;&#x539F;&#x7406;.</p>
+<p>&#x8BF7;&#x4F60;&#x601D;&#x8003;&#xFF1A;&#x5982;&#x679C;&#x8BA9;&#x4F60;&#x6765;&#x8BBE;&#x8BA1; CPU &#x548C;&#x8BBE;&#x5907;&#x7684;&#x901A;&#x4FE1;&#xFF0C;&#x4F60;&#x4F1A;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x5462;&#xFF1F;</p>
+</div></div></p>
+<p>&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x901A;&#x8FC7;&#x64CD;&#x4F5C;&#x8BA1;&#x7B97;&#x673A;&#x6765;&#x63A7;&#x5236;&#x8BBE;&#x5907;&#x5DE5;&#x4F5C;, &#x663E;&#x7136;, &#x8FD9;&#x4E00;&#x8270;&#x5DE8;&#x7684;&#x4EFB;&#x52A1;&#x53C8;&#x662F;&#x7531; CPU &#x6765;&#x5B8C;&#x6210;. &#x4E0A;&#x9762;&#x8BF4;&#x5230;, &#x8981;&#x63A7;&#x5236;&#x8BBE;&#x5907;&#x5FC5;&#x987B;&#x53D1;&#x9001;&#x63A7;&#x5236;&#x7684;&#x547D;&#x4EE4;&#x5B57;, &#x90A3;&#x4E48;, CPU &#x600E;&#x4E48;&#x77E5;&#x9053;&#x5411;&#x54EA;&#x4E2A;&#x8BBE;&#x5907;&#x53D1;&#x9001;, &#x53C8;&#x600E;&#x4E48;&#x53D1;&#x9001;&#x547D;&#x4EE4;&#x5B57;&#x5462;&#xFF1F;</p>
+<h2 id="io-&#x7F16;&#x5740;">I/O &#x7F16;&#x5740;</h2>
+<p>&#x6839;&#x636E;&#x4F60;&#x7684;&#x7ECF;&#x9A8C;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;<strong>&quot;&#x54EA;&#x4E00;&#x4E2A;&quot;</strong>&#x7684;&#x95EE;&#x9898;&#x4F30;&#x8BA1;&#x8DDF;<strong>&#x5730;&#x5740;</strong>&#x76F8;&#x5173;. &#x4E8B;&#x5B9E;&#x4E0A;&#x5C31;&#x662F;&#x5982;&#x6B64;. &#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x77E5;&#x9053;&#x5185;&#x5B58;&#x6709;&#x5730;&#x5740;&#x7684;&#x6982;&#x5FF5;, &#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x7ED9; I/O &#x8BBE;&#x5907;&#x4E2D;&#x5141;&#x8BB8; CPU &#x8BBF;&#x95EE;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x9010;&#x4E00;&#x7F16;&#x5740;, &#x4ECE;&#x800C;&#x8BA9; CPU &#x533A;&#x5206;&#x4E0D;&#x540C;&#x7684;&#x8BBE;&#x5907;. I/O &#x7F16;&#x5740;&#x65B9;&#x5F0F;&#x6709;&#x4E24;&#x79CD;, &#x533A;&#x522B;&#x5728;&#x4E8E; I/O &#x7AEF;&#x53E3;&#x5360;&#x4E0D;&#x5360;&#x7528;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x7684;&#x5730;&#x5740;. </p>
+<h3 id="&#x7AEF;&#x53E3;&#x6620;&#x5C04;-io&#xFF08;&#x72EC;&#x7ACB;&#x7F16;&#x5740;&#xFF09;">&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O&#xFF08;&#x72EC;&#x7ACB;&#x7F16;&#x5740;&#xFF09;</h3>
+<p>&#x4E00;&#x79CD;&#x7F16;&#x5740;&#x65B9;&#x5F0F;&#x53EB;&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O(port-mapped I/O), &#x5373;<strong>&#x5728;&#x7CFB;&#x7EDF;&#x4E2D;&#x5B58;&#x5728;&#x4E86;&#x53E6;&#x4E00;&#x79CD;&#x4E0E;&#x5B58;&#x50A8;&#x5730;&#x5740;&#x65E0;&#x5173;&#x7684; I/O &#x5730;&#x5740;</strong>, &#x540C;&#x65F6;CPU&#x8BBF;&#x95EE;&#x8BBE;&#x5907;&#x8981;&#x4F7F;&#x7528;&#x4E13;&#x95E8;&#x7684; I/O &#x6307;&#x4EE4;, &#x8BBE;&#x5907;&#x7684;&#x5730;&#x5740;&#x79F0;&#x4E3A;<strong>&#x7AEF;&#x53E3;&#x53F7;</strong>, &#x5728; I/O &#x6307;&#x4EE4;&#x4E2D;&#x7ED9;&#x51FA;&#x7AEF;&#x53E3;&#x53F7;, &#x5C31;&#x80FD;&#x627E;&#x5230;&#x8BBF;&#x95EE;&#x7684;&#x8BBE;&#x5907;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x4E86;. </p>
+<blockquote>
+<p>&#x5E02;&#x573A;&#x4E0A;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x90FD;&#x662F;IBM PC&#x517C;&#x5BB9;&#x673A;, IBM PC&#x517C;&#x5BB9;&#x673A;&#x5BF9;&#x5E38;&#x89C1;&#x8BBE;&#x5907;&#x7AEF;&#x53E3;&#x53F7;&#x7684;&#x5206;&#x914D;&#x6709;<a href="http://en.wikipedia.org/wiki/Input/output_base_address" target="_blank">&#x4E13;&#x95E8;&#x7684;&#x89C4;&#x5B9A;</a>. &#x8BBE;&#x5907;&#x4E2D;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x4E00;&#x4E9B;&#x79C1;&#x6709;&#x5BC4;&#x5B58;&#x5668;, &#x5B83;&#x4EEC;&#x662F;&#x7531;&#x8BBE;&#x5907;&#x81EA;&#x5DF1;&#x7EF4;&#x62A4;&#x7684;, &#x5B83;&#x4EEC;&#x6CA1;&#x6709;&#x7AEF;&#x53E3;&#x53F7;, CPU&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x5B83;&#x4EEC;. </p>
+</blockquote>
+<p><strong>X86 &#x63D0;&#x4F9B;<code>IN</code>&#x548C;<code>OUT</code>&#x6307;&#x4EE4;&#x7528;&#x4E8E;&#x8BBF;&#x95EE;&#x8BBE;&#x5907;</strong>. &#x4EE5; CPU &#x4E3A;&#x4E3B;&#x89C6;&#x89D2;, &#x5F88;&#x5BB9;&#x6613;&#x7406;&#x89E3; <code>IN</code> &#x6307;&#x4EE4;&#x662F;&#x5C06;&#x8BBE;&#x5907;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x5230;CPU &#x5BC4;&#x5B58;&#x5668;&#x4E2D;, &#x800C; <code>OUT</code> &#x6307;&#x4EE4;&#x5219;&#x662F;&#x5C06; CPU &#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9001;&#x5230;&#x8BBE;&#x5907;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;. </p>
+<p><div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;</div></div><div class="panel-content"><p>&#x4E0B;&#x9762;&#x662F;&#x4F7F;&#x7528; <code>OUT</code> &#x6307;&#x4EE4;&#x7ED9;&#x4E32;&#x53E3;&#x53D1;&#x9001;&#x547D;&#x4EE4;&#x5B57;&#x7684;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;, &#x4EE3;&#x7801;&#x4F4D;&#x4E8E; <code>nexus-am/am/arch/x86-nemu/src/trm.c</code> &#x4E2D;&#x7684; <code>serial_init()</code>,</p>
+<pre><code class="lang-asm">movl $0x0, %al
+movl $0x3f9, %edx
+outb %al, (%dx)
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x4F20;&#x9001; <code>0x0</code> &#x5230; <code>0x3f9</code> &#x53F7;&#x7AEF;&#x53E3;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x8BBE;&#x5907;&#x5BC4;&#x5B58;&#x5668;. &#x4F60;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x5230; <code>I/O</code> &#x6307;&#x4EE4;&#x548C;&#x547D;&#x4EE4;&#x5B57;&#x7684;&#x533A;&#x522B;, &#x524D;&#x8005;&#x662F; <code>CPU</code> &#x6267;&#x884C;&#x7684;&#x6307;&#x4EE4;, &#x800C;&#x540E;&#x8005;&#x5219;&#x7531;&#x8BBE;&#x5907;&#x6765;&#x89E3;&#x91CA;&#x548C;&#x6267;&#x884C;, &#x5176;&#x5177;&#x4F53;&#x542B;&#x4E49;&#x4E0E;&#x8BBE;&#x5907;&#x76F8;&#x5173;. &#x4EE5;&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x4E3A;&#x4F8B;, CPU &#x5C06; <code>0x0</code> &#x8FD9;&#x4E2A;&#x6570;&#x636E;&#x4F20;&#x9001;&#x5230;&#x4E32;&#x53E3;&#x7684;&#x4E00;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;, &#x800C;&#x4E32;&#x53E3;&#x63A5;&#x6536;&#x5230; <code>0x0</code> &#x540E;&#x89E3;&#x91CA;&#x53D1;&#x73B0;&#x662F;&#x4E00;&#x6761;&#x5173;&#x4E2D;&#x65AD;&#x547D;&#x4EE4;, &#x4E8E;&#x662F;&#x8FDB;&#x5165;&#x5173;&#x4E2D;&#x65AD;&#x72B6;&#x6001;. </p>
+</div></div></p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">CPU &#x9700;&#x8981;&#x77E5;&#x9053;&#x8BBE;&#x5907;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#x5417;&#xFF1F;</div></div><div class="panel-content"><p>&#x4ECE;&#x521A;&#x521A;&#x7684;&#x4F8B;&#x5B50;&#x6765;&#x770B;&#xFF0C;CPU &#x53EA;&#x662F;&#x628A;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x9001;&#x5230;&#x4E86;&#x67D0;&#x4E2A;&#x7AEF;&#x53E3;&#x4E0A;&#x3002;&#x90A3;&#x4E48; CPU &#x9700;&#x8981;&#x77E5;&#x9053;&#x5B57;&#x8282;&#x9001;&#x5230;&#x8BE5;&#x7AEF;&#x53E3;&#x4E0A;&#x4E4B;&#x540E;&#xFF0C;&#x5230;&#x8BBE;&#x5907;&#x9001;&#x56DE;&#x6570;&#x636E;&#x53CD;&#x9988;&#xFF08;&#x6709;&#x7684;&#x8BBE;&#x5907;&#x53EF;&#x80FD;&#x5E76;&#x4E0D;&#x4F1A;&#x9001;&#x56DE;&#x6570;&#x636E;&#x53CD;&#x9988;&#xFF09;&#x4E4B;&#x95F4;&#xFF0C;&#x8BBE;&#x5907;&#x90FD;&#x505A;&#x4E86;&#x4EC0;&#x4E48;&#x4E8B;&#x60C5;&#x5417;&#xFF1F;</p>
+</div></div></p>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;, &#x8BBE;&#x5907;&#x7684;&#x884C;&#x4E3A;&#x90FD;&#x4F1A;&#x5728;&#x76F8;&#x5E94;&#x7684;&#x6587;&#x6863;&#x91CC;&#x9762;&#x6709;&#x6E05;&#x6670;&#x7684;&#x5B9A;&#x4E49;, &#x9A71;&#x52A8;&#x5F00;&#x53D1;&#x8005;&#x9700;&#x8981;&#x9605;&#x8BFB;&#x8BBE;&#x5907;&#x7684;&#x76F8;&#x5173;&#x6587;&#x6863;, &#x7F16;&#x5199;&#x76F8;&#x5E94;&#x7684;&#x547D;&#x4EE4;&#x5B57;&#x5E8F;&#x5217;&#x6765;&#x5BF9;&#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x671F;&#x671B;&#x7684;&#x64CD;&#x4F5C;. &#x5728; PA &#x4E2D;&#x6211;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x8FD9;&#x4E9B;&#x7EC6;&#x8282;, &#x53EA;&#x9700;&#x8981;&#x77E5;&#x9053;, &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x9605;&#x8BFB;&#x76F8;&#x5173;&#x6587;&#x6863;, &#x7F16;&#x5199;&#x76F8;&#x5E94;&#x7684;&#x7A0B;&#x5E8F;&#x5728; CPU &#x4E0A;&#x8FD0;&#x884C;&#x6765;&#x64CD;&#x4F5C;&#x8BBE;&#x5907;&#x5373;&#x53EF;.</p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">&#x4EC0;&#x4E48;&#x662F;&#x9A71;&#x52A8;&#xFF1F;</div></div><div class="panel-content"><p>CPU &#x9700;&#x8981;&#x5C06;&#x7279;&#x5B9A;&#x503C;&#x7684;&#x6570;&#x636E;&#x9001;&#x5230;&#x7279;&#x5B9A;&#x7684;&#x7AEF;&#x53E3;&#x4E0A;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x9700;&#x8981;&#x9A71;&#x52A8;&#x53C2;&#x4E0E;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x80FD;&#x7406;&#x89E3;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x9A71;&#x52A8;&#x5417;&#xFF1F;&#x5B83;&#x548C;&#x4E00;&#x822C;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6216;&#x8005;&#x548C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x6709;&#x4EC0;&#x4E48;&#x4E0D;&#x540C;&#xFF1F;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x4E86;&#x89E3;&#xFF0C;&#x53EF;&#x4EE5;&#x4ECE;&#x7F51;&#x7EDC;&#x4E0A;&#x641C;&#x7D22;&#x76F8;&#x5173;&#x77E5;&#x8BC6;&#x3002;</p>
+</div></div></p>
+<h3 id="&#x5185;&#x5B58;&#x6620;&#x5C04;-io&#xFF08;&#x7EDF;&#x4E00;&#x7F16;&#x5740;&#xFF09;">&#x5185;&#x5B58;&#x6620;&#x5C04; I/O&#xFF08;&#x7EDF;&#x4E00;&#x7F16;&#x5740;&#xFF09;</h3>
+<p>&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O &#x628A;&#x7AEF;&#x53E3;&#x53F7;&#x4F5C;&#x4E3A; I/O &#x6307;&#x4EE4;&#x7684;&#x4E00;&#x90E8;&#x5206;, &#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x5F88;&#x7B80;&#x5355;, &#x4F46;&#x6700;&#x5927;&#x7684;&#x7F3A;&#x70B9;&#x662F;&#x6307;&#x4EE4;&#x96C6;&#x4E3A;&#x4E86;&#x517C;&#x5BB9;&#x5DF2;&#x7ECF;&#x5F00;&#x53D1;&#x7684;&#x7A0B;&#x5E8F;, &#x53EA;&#x80FD;&#x8FDB;&#x884C;&#x6DFB;&#x52A0;&#x800C;&#x4E0D;&#x80FD;&#x4FEE;&#x6539;&#x7684;. &#x8FD9;&#x610F;&#x5473;&#x7740;, &#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O &#x6240;&#x80FD;&#x8BBF;&#x95EE;&#x7684; I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x7684;&#x5927;&#x5C0F;, &#x5728;&#x8BBE;&#x8BA1; I/O &#x6307;&#x4EE4;&#x7684;&#x90A3;&#x4E00;&#x523B;&#x5C31;&#x5DF2;&#x7ECF;&#x51B3;&#x5B9A;&#x4E0B;&#x6765;&#x4E86;. &#x6240;&#x8C13; I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;, &#x5176;&#x5B9E;&#x5C31;&#x662F;&#x6240;&#x6709;&#x80FD;&#x8BBF;&#x95EE;&#x7684;&#x8BBE;&#x5907;&#x7684;&#x5730;&#x5740;&#x7684;&#x96C6;&#x5408;. </p>
+<p>&#x968F;&#x7740;&#x8BBE;&#x5907;&#x8D8A;&#x6765;&#x8D8A;&#x591A;, &#x529F;&#x80FD;&#x4E5F;&#x8D8A;&#x6765;&#x8D8A;&#x590D;&#x6742;, I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x6709;&#x9650;&#x7684;&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O &#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x4E0D;&#x80FD;&#x6EE1;&#x8DB3;&#x9700;&#x6C42;&#x4E86;. &#x6709;&#x7684;&#x8BBE;&#x5907;&#x9700;&#x8981;&#x8BA9; CPU &#x8BBF;&#x95EE;&#x4E00;&#x6BB5;&#x8F83;&#x5927;&#x7684;&#x8FDE;&#x7EED;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;, &#x5982; <strong>VGA &#x7684;&#x663E;&#x5B58;</strong>, 24&#x8272;&#x52A0;&#x4E0A; Alpha &#x901A;&#x9053;&#x7684; 1024x768 &#x5206;&#x8FA8;&#x7387;&#x7684;&#x663E;&#x5B58;&#x5C31;&#x9700;&#x8981; 3MB &#x7684;&#x7F16;&#x5740;&#x8303;&#x56F4;. &#x4E8E;&#x662F;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O(memory-mapped I/O) &#x5E94;&#x8FD0;&#x800C;&#x751F;.</p>
+<p>&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x5C06;&#x4E00;&#x90E8;&#x5206;&#x7269;&#x7406;&#x5185;&#x5B58;&quot;&#x91CD;&#x5B9A;&#x5411;&quot;&#x5230; I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x4E2D;, <strong>CPU &#x5C1D;&#x8BD5;&#x8BBF;&#x95EE;&#x8FD9;&#x90E8;&#x5206;&#x7269;&#x7406;&#x5185;&#x5B58;&#x7684;&#x65F6;&#x5019;, &#x5B9E;&#x9645;&#x4E0A;&#x6700;&#x7EC8;&#x662F;&#x8BBF;&#x95EE;&#x4E86;&#x76F8;&#x5E94;&#x7684; I/O &#x8BBE;&#x5907;</strong>. &#x4E8E;&#x662F;, CPU &#x5C31;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x666E;&#x901A;&#x7684;&#x8BBF;&#x5B58;&#x6307;&#x4EE4;&#x6765;&#x8BBF;&#x95EE;&#x8BBE;&#x5907;. &#x8FD9;&#x610F;&#x5473;&#x7740;&#x7269;&#x7406;&#x5185;&#x5B58;&#x7684;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#x548C; CPU &#x7684;&#x4F4D;&#x5BBD;&#x90FD;&#x4F1A;&#x4E0D;&#x65AD;&#x589E;&#x957F;, &#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x4ECE;&#x6765;&#x4E0D;&#x9700;&#x8981;&#x62C5;&#x5FC3; I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x8017;&#x5C3D;&#x7684;&#x95EE;&#x9898;. </p>
+<p>&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x552F;&#x4E00;&#x7684;&#x7F3A;&#x70B9;, &#x4E5F;&#x5C31;&#x662F; CPU &#x65E0;&#x6CD5;&#x901A;&#x8FC7;&#x6B63;&#x5E38;&#x6E20;&#x9053;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x90A3;&#x4E9B;&#x88AB;&#x6620;&#x5C04;&#x5230; I/O &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x7684;&#x7269;&#x7406;&#x5185;&#x5B58;&#x4E86;. &#x4F46;&#x968F;&#x7740;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x53D1;&#x5C55;, &#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x552F;&#x4E00;&#x7F3A;&#x70B9;&#x5DF2;&#x7ECF;&#x8D8A;&#x6765;&#x8D8A;&#x4E0D;&#x660E;&#x663E;&#x4E86;: &#x73B0;&#x4EE3;&#x8BA1;&#x7B97;&#x673A;&#x90FD;&#x5DF2;&#x7ECF;&#x662F; 64 &#x4F4D;&#x8BA1;&#x7B97;&#x673A;, &#x7269;&#x7406;&#x5730;&#x5740;&#x7EBF;&#x90FD;&#x6709; 48 &#x6839;, &#x8FD9;&#x610F;&#x5473;&#x7740;&#x7269;&#x7406;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#x6709; 256TB &#x8FD9;&#x4E48;&#x5927;, &#x5212;&#x7ED9;&#x663E;&#x5B58;&#x7684; 3MB &#x5730;&#x5740;&#x7A7A;&#x95F4;&#x5C31;&#x663E;&#x5F97;&#x5FAE;&#x4E0D;&#x8DB3;&#x9053;. </p>
+<p>&#x56E0;&#x6B64;, &#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x6210;&#x4E3A;&#x4E86;&#x73B0;&#x4EE3;&#x8BA1;&#x7B97;&#x673A;&#x4E3B;&#x6D41;&#x7684; I/O &#x7F16;&#x5740;&#x65B9;&#x5F0F;: RISC &#x67B6;&#x6784;&#x53EA;&#x63D0;&#x4F9B;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x7F16;&#x5740;&#x65B9;&#x5F0F;, &#x800C; PCI-e, &#x7F51;&#x5361;, x86 &#x7684; APIC &#x7B49;&#x4E3B;&#x6D41;&#x8BBE;&#x5907;, &#x90FD;&#x652F;&#x6301;&#x901A;&#x8FC7;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x6765;&#x8BBF;&#x95EE;.</p>
+<p><div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">&#x518D;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;</div></div><div class="panel-content"><p>&#x5185;&#x5B58;&#x6620;&#x5C04;I/O&#x7684;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x5C31;&#x662F;NEMU&#x4E2D;&#x7684;&#x7269;&#x7406;&#x5730;&#x5740;&#x533A;&#x95F4;<code>[0x40000, 0x80000]</code>. &#x8FD9;&#x6BB5;&#x7A7A;&#x95F4;&#x88AB;&#x6620;&#x5C04;&#x5230;VGA&#x5185;&#x90E8;&#x7684;&#x663E;&#x5B58;, &#x56E0;&#x6B64;<u>&#x8BFB;&#x5199;&#x8FD9;&#x6BB5;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#x5373;&#x8BFB;&#x5199;VGA&#x663E;&#x5B58;&#x7684;&#x6570;&#x636E;</u>.&#x4F8B;&#x5982;&#x4EE3;&#x7801;</p>
+<pre><code class="lang-c"><span class="hljs-built_in">memset</span>((<span class="hljs-keyword">void</span> *)<span class="hljs-number">0x40000</span>, <span class="hljs-number">0</span>, SCR_SIZE);
+</code></pre>
+<p>&#x5C06;&#x663E;&#x5B58;&#x4E2D;&#x4E00;&#x4E2A;&#x5C4F;&#x5E55;&#x5927;&#x5C0F;&#x7684;&#x6570;&#x636E;&#x6E05;&#x96F6;, &#x5373;&#x5F80;&#x6574;&#x4E2A;&#x5C4F;&#x5E55;&#x5199;&#x5165;&#x9ED1;&#x8272;&#x50CF;&#x7D20;, &#x8D77;&#x5230;&#x6E05;&#x5C4F;&#x4F5C;&#x7528;. &#x7531;&#x4E8E;&#x5185;&#x5B58;&#x6620;&#x5C04;I/O&#x7684;&#x7F16;&#x7A0B;&#x6A21;&#x578B;&#x548C;&#x666E;&#x901A;&#x7F16;&#x7A0B;&#x5B8C;&#x5168;&#x4E00;&#x6837;, &#x56E0;&#x6B64;&#x7A0B;&#x5E8F;&#x5458;&#x7F16;&#x7A0B;&#x65F6;&#x53EF;&#x76F4;&#x63A5;&#x628A;I/O&#x8BBE;&#x5907;&#x5F53;&#x4F5C;&#x5185;&#x5B58;&#x6765;&#x8BBF;&#x95EE;.</p>
+</div></div></p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">CPU &#x77E5;&#x9053;&#x5417;&#xFF1F;</div></div><div class="panel-content"><p>&#x4E0A;&#x8FF0;&#x4F8B;&#x5B50;&#x4E2D;&#x7684; <code>memset</code> &#x51FD;&#x6570;&#x5BF9;&#x4E8E; CPU &#x6765;&#x8BF4;&#x5C31;&#x662F;&#x628A;&#x67D0;&#x6BB5;&#x5730;&#x5740;&#x4E0A;&#x7684;&#x6570;&#x636E;&#x8BBE;&#x5B9A;&#x4E3A;&#x6307;&#x5B9A;&#x7684;&#x503C;&#xFF0C;&#x90A3;&#x4E48; CPU &#x5728;&#x6267;&#x884C;&#x8FD9;&#x6761;&#x6307;&#x4EE4;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x77E5;&#x9053;&#x81EA;&#x5DF1;&#x8981;&#x8BBF;&#x5B58;&#x7684;&#x5730;&#x5740;&#x662F;&#x771F;&#x6B63;&#x5904;&#x4E8E;&#x5185;&#x5B58;&#x4E2D;&#x8FD8;&#x662F;&#x7ECF;&#x8FC7;&#x91CD;&#x5B9A;&#x5411;&#x7684;&#x5417;&#xFF1F;</p>
+</div></div></p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">&#x518D;&#x6B21;&#x7406;&#x89E3;volatile&#x5173;&#x952E;&#x5B57;</div></div><div class="panel-content"><p>&#x4E5F;&#x8BB8;&#x4F60;&#x4ECE;&#x6765;&#x90FD;&#x6CA1;&#x542C;&#x8BF4;&#x8FC7; C &#x8BED;&#x8A00;&#x4E2D;&#x6709; <code>volatile</code> &#x8FD9;&#x4E2A;&#x5173;&#x952E;&#x5B57;, &#x4F46;&#x5B83;&#x4ECE; C &#x8BED;&#x8A00;&#x8BDE;&#x751F;&#x5F00;&#x59CB;&#x5C31;&#x4E00;&#x76F4;&#x5B58;&#x5728;. <code>volatile</code> &#x5173;&#x952E;&#x5B57;&#x7684;&#x4F5C;&#x7528;&#x5341;&#x5206;&#x7279;&#x522B;, &#x5B83;&#x7684;&#x4F5C;&#x7528;&#x662F;&#x907F;&#x514D;&#x7F16;&#x8BD1;&#x5668;&#x5BF9;&#x76F8;&#x5E94;&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x4F18;&#x5316;. &#x4F60;&#x5E94;&#x8BE5;&#x52A8;&#x624B;&#x4F53;&#x4F1A;&#x4E00;&#x4E0B; <code>volatile</code> &#x7684;&#x4F5C;&#x7528;, &#x5728; GNU/Linux &#x4E0B;&#x7F16;&#x5199;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;:</p>
+<pre><code class="lang-c"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">fun</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">volatile</span> <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">char</span> *p = (<span class="hljs-keyword">void</span> *)<span class="hljs-number">0x8048000</span>;
+    *p = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">while</span>(*p != <span class="hljs-number">0xff</span>);
+    *p = <span class="hljs-number">0x33</span>;
+    *p = <span class="hljs-number">0x34</span>;
+    *p = <span class="hljs-number">0x36</span>;
+}
+</code></pre>
+<p>&#x7136;&#x540E;&#x4F7F;&#x7528; <code>-O2</code> &#x7F16;&#x8BD1;&#x4EE3;&#x7801;. &#x5C1D;&#x8BD5;&#x53BB;&#x6389;&#x4EE3;&#x7801;&#x4E2D;&#x7684; <code>volatile</code> &#x5173;&#x952E;&#x5B57;, &#x91CD;&#x65B0;&#x4F7F;&#x7528; <code>-O2</code> &#x7F16;&#x8BD1;, &#x5E76;&#x5BF9;&#x6BD4;&#x53BB;&#x6389; <code>volatile</code> &#x524D;&#x540E;&#x53CD;&#x6C47;&#x7F16;&#x7ED3;&#x679C;&#x7684;&#x4E0D;&#x540C;.</p>
+<p>&#x4F60;&#x6216;&#x8BB8;&#x4F1A;&#x611F;&#x5230;&#x7591;&#x60D1;, &#x4EE3;&#x7801;&#x4F18;&#x5316;&#x4E0D;&#x662F;&#x4E00;&#x4EF6;&#x597D;&#x4E8B;&#x60C5;&#x5417;? &#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709; <code>volatile</code> &#x8FD9;&#x79CD;&#x5947;&#x8469;&#x7684;&#x5B58;&#x5728;? &#x601D;&#x8003;&#x4E00;&#x4E0B;, &#x5982;&#x679C;&#x4EE3;&#x7801;&#x4E2D;&#x7684;&#x5730;&#x5740; <code>0x8048000</code> &#x6700;&#x7EC8;&#x88AB;&#x6620;&#x5C04;&#x5230;&#x4E00;&#x4E2A;&#x8BBE;&#x5907;&#x5BC4;&#x5B58;&#x5668;, &#x53BB;&#x6389; <code>volatile</code> &#x53EF;&#x80FD;&#x4F1A;&#x5E26;&#x6765;&#x4EC0;&#x4E48;&#x95EE;&#x9898;?</p>
+</div></div></p>
+<h2 id="&#x52A0;&#x5165;-ioe">&#x52A0;&#x5165; IOE</h2>
+<p>NEMU &#x6846;&#x67B6;&#x4EE3;&#x7801;&#x5DF2;&#x7ECF;&#x63D0;&#x4F9B;&#x4E86;&#x8BBE;&#x5907;&#x7684;&#x4E00;&#x4E9B;&#x4EE3;&#x7801;, &#x4F4D;&#x4E8E; <code>nemu/src/device</code>. &#x4EE3;&#x7801;&#x6A21;&#x62DF;&#x4E86;&#x4EE5;&#x4E0B;&#x6A21;&#x5757;:</p>
+<ul>
+<li>&#x4E24;&#x79CD; I/O &#x7F16;&#x5740;&#x65B9;&#x5F0F;: &#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O &#x548C;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O&#xFF1B;</li>
+<li>&#x56DB;&#x79CD;&#x8BBE;&#x5907;: &#x4E32;&#x53E3;, &#x65F6;&#x949F;, &#x952E;&#x76D8;, VGA&#xFF1B;</li>
+</ul>
+<p>&#x6240;&#x6709;&#x8BBE;&#x5907;&#x53EA;&#x5B9E;&#x73B0;&#x4E86;&#x5728; NEMU &#x4E2D;&#x7528;&#x5230;&#x7684;&#x529F;&#x80FD;, &#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x5BF9;&#x4EE3;&#x7801;&#x7A0D;&#x4F5C;&#x89E3;&#x91CA;:</p>
+<ul>
+<li><code>nemu/src/device/io/port-io.c</code> &#x662F;&#x5BF9;&#x7AEF;&#x53E3; I/O &#x7684;&#x6A21;&#x62DF;. &#x5176;&#x4E2D; <code>PIO_t</code> &#x7ED3;&#x6784;&#x7528;&#x4E8E;&#x8BB0;&#x5F55;&#x4E00;&#x4E2A;&#x7AEF;&#x53E3; I/O &#x6620;&#x5C04;&#x7684;&#x5173;&#x7CFB;, &#x8BBE;&#x5907;&#x4F1A;&#x521D;&#x59CB;&#x5316;&#x65F6;&#x4F1A;&#x8C03;&#x7528; <code>add_pio_map()</code> &#x51FD;&#x6570;&#x6765;&#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x7AEF;&#x53E3; I/O &#x6620;&#x5C04;&#x5173;&#x7CFB;, &#x8FD4;&#x56DE;&#x8BE5;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#x7684; I/O &#x7A7A;&#x95F4;&#x9996;&#x5730;&#x5740;. <code>pio_read()</code> &#x548C; <code>pio_write()</code> &#x662F;<strong>&#x9762;&#x5411; CPU &#x7684;</strong>&#x7AEF;&#x53E3; I/O &#x8BFB;&#x5199;&#x63A5;&#x53E3;. &#x7531;&#x4E8E; NEMU &#x662F;&#x5355;&#x7EBF;&#x7A0B;&#x7A0B;&#x5E8F;, &#x56E0;&#x6B64;&#x53EA;&#x80FD;&#x4E32;&#x884C;&#x6A21;&#x62DF;&#x6574;&#x4E2A;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7684;&#x5DE5;&#x4F5C;, &#x6BCF;&#x6B21;&#x8FDB;&#x884C; I/O &#x8BFB;&#x5199;&#x7684;&#x65F6;&#x5019;, &#x624D;&#x4F1A;&#x8C03;&#x7528;&#x8BBE;&#x5907;&#x63D0;&#x4F9B;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;(callback), &#x66F4;&#x65B0;&#x8BBE;&#x5907;&#x7684;&#x72B6;&#x6001;. &#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x6A21;&#x62DF;&#x548C;&#x7AEF;&#x53E3; I/O &#x7684;&#x6A21;&#x62DF;&#x6BD4;&#x8F83;&#x76F8;&#x4F3C;, &#x53EA;&#x662F;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x8BFB;&#x5199;&#x5E76;&#x4E0D;&#x662F;&#x9762;&#x5411; CPU &#x7684;, &#x8FD9;&#x4E00;&#x70B9;&#x4F1A;&#x5728;&#x4E0B;&#x6587;&#x8FDB;&#x884C;&#x8BF4;&#x660E;.</li>
+<li><code>nemu/src/device/device.c</code> &#x542B;&#x6709;&#x548C; SDL &#x5E93;&#x76F8;&#x5173;&#x7684;&#x4EE3;&#x7801;, NEMU &#x4F7F;&#x7528; SDL &#x5E93;&#x6765;&#x6A21;&#x62DF;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x6807;&#x51C6;&#x8F93;&#x5165;&#x8F93;&#x51FA;. <code>init_device()</code> &#x51FD;&#x6570;&#x9996;&#x5148;&#x5BF9;&#x4EE5;&#x4E0A;&#x56DB;&#x4E2A;&#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;, &#x5176;&#x4E2D;&#x5728;&#x521D;&#x59CB;&#x5316; VGA &#x65F6;&#x8FD8;&#x4F1A;&#x8FDB;&#x884C;&#x4E00;&#x4E9B;&#x548C; SDL &#x76F8;&#x5173;&#x7684;&#x521D;&#x59CB;&#x5316;&#x5DE5;&#x4F5C;, &#x5305;&#x62EC;&#x521B;&#x5EFA;&#x7A97;&#x53E3;, &#x8BBE;&#x7F6E;&#x663E;&#x793A;&#x6A21;&#x5F0F;&#x7B49;. &#x6700;&#x540E;&#x8FD8;&#x4F1A;&#x6CE8;&#x518C;&#x4E00;&#x4E2A; 100Hz &#x7684;&#x5B9A;&#x65F6;&#x5668;, &#x6BCF;&#x9694; 0.01 &#x79D2;&#x5C31;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21; <code>device_update()</code> &#x51FD;&#x6570;. <code>device_update()</code> &#x51FD;&#x6570;&#x4E3B;&#x8981;&#x8FDB;&#x884C;&#x4E00;&#x4E9B;&#x8BBE;&#x5907;&#x7684;&#x6A21;&#x62DF;&#x64CD;&#x4F5C;, &#x5305;&#x62EC;&#x4EE5; 50Hz &#x7684;&#x9891;&#x7387;&#x5237;&#x65B0;&#x5C4F;&#x5E55;, &#x4EE5;&#x53CA;&#x68C0;&#x6D4B;&#x662F;&#x5426;&#x6709;&#x6309;&#x952E;&#x6309;&#x4E0B;/&#x91CA;&#x653E;. &#x9700;&#x8981;&#x8BF4;&#x660E;&#x7684;&#x662F;, &#x4EE3;&#x7801;&#x4E2D;&#x6CE8;&#x518C;&#x7684;&#x5B9A;&#x65F6;&#x5668;&#x662F;&#x865A;&#x62DF;&#x5B9A;&#x65F6;&#x5668;, &#x5B83;&#x53EA;&#x4F1A;&#x5728; NEMU &#x5904;&#x4E8E;&#x7528;&#x6237;&#x6001;&#x7684;&#x65F6;&#x5019;&#x8FDB;&#x884C;&#x8BA1;&#x65F6;: &#x5982;&#x679C; NEMU &#x5728; <code>ui_mainloop()</code> &#x4E2D;&#x7B49;&#x5F85;&#x7528;&#x6237;&#x8F93;&#x5165;, &#x5B9A;&#x65F6;&#x5668;&#x5C06;&#x4E0D;&#x4F1A;&#x8BA1;&#x65F6;; &#x5982;&#x679C; NEMU &#x8FDB;&#x884C;&#x5927;&#x91CF;&#x7684;&#x8F93;&#x51FA;, &#x5B9A;&#x65F6;&#x5668;&#x7684;&#x8BA1;&#x65F6;&#x5C06;&#x4F1A;&#x53D8;&#x5F97;&#x7F13;&#x6162;. <strong>&#x56E0;&#x6B64;&#x9664;&#x975E;&#x4F60;&#x5728;&#x8FDB;&#x884C;&#x8C03;&#x8BD5;, &#x5426;&#x5219;&#x5C3D;&#x91CF;&#x907F;&#x514D;&#x5927;&#x91CF;&#x8F93;&#x51FA;&#x7684;&#x60C5;&#x51B5;, &#x4ECE;&#x800C;&#x5F71;&#x54CD;&#x5B9A;&#x65F6;&#x5668;&#x7684;&#x5DE5;&#x4F5C;.</strong></li>
+</ul>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1; 1&#xFF1A;&#x52A0;&#x5165;IOE</div></div><div class="panel-content"><p>&#x8981;&#x5728; NEMU &#x4E2D;&#x52A0;&#x5165; IOE, &#x53EA;&#x9700;&#x8981;&#x5728; <code>nemu/include/common.h</code> &#x4E2D;&#x5B9A;&#x4E49;&#x5B8F; <code>HAS_IOE</code>. &#x5B9A;&#x4E49;&#x540E;, <code>init_device()</code> &#x51FD;&#x6570;&#x4F1A;&#x5BF9;&#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;. &#x91CD;&#x65B0;&#x7F16;&#x8BD1;&#x540E;, &#x4F60;&#x4F1A;&#x770B;&#x5230;&#x8FD0;&#x884C; NEMU &#x65F6;&#x4F1A;&#x5F39;&#x51FA;&#x4E00;&#x4E2A;&#x65B0;&#x7A97;&#x53E3;, &#x7528;&#x4E8E;&#x663E;&#x793A;&#x4E0B;&#x6587;&#x6240;&#x8FF0;&#x7684; VGA &#x8F93;&#x51FA;. &#x5982;&#x679C;&#x4F60;&#x5728;&#x8FD0;&#x884C; NEMU &#x65F6;&#x6CA1;&#x6709;&#x5F39;&#x51FA;&#x7A97;&#x53E3;&#xFF0C;&#x8BF7;&#x68C0;&#x67E5;&#x4F60;&#x7684; X11 &#x670D;&#x52A1;&#x5668;&#x6216;/&#x548C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x5426;&#x5904;&#x4E8E;&#x8FD0;&#x884C;&#x72B6;&#x6001;&#xFF0C;&#x82E5;&#x6CA1;&#x5728;&#x6B63;&#x5E38;&#x8FD0;&#x884C;&#xFF0C;&#x8BF7;&#x53C2;&#x7167; PA0 &#x4E2D;&#x7684;&#x4ECB;&#x7ECD;&#x91CD;&#x65B0;&#x5F00;&#x542F; X11&#x3002;</p>
+</div></div></p>
+<p>&#x53E6;&#x4E00;&#x65B9;&#x9762;, &#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728; AM &#x4E2D;&#x5B9E;&#x73B0;&#x76F8;&#x5E94;&#x7684; API &#x4E3A;&#x7A0B;&#x5E8F;&#x63D0;&#x4F9B; IOE &#x7684;&#x62BD;&#x8C61; (&#x5728; <code>nexus-am/am/arch/x86-nemu/src/ioe.c</code> &#x4E2D;&#x5B9A;&#x4E49;):</p>
+<ul>
+<li><code>_Screen _screen</code>  &#x7ED3;&#x6784;&#x4F53;&#x7528;&#x4E8E;&#x6307;&#x793A;&#x5C4F;&#x5E55;&#x7684;&#x5927;&#x5C0F;.</li>
+<li><code>void _ioe_init()</code>  &#x8FDB;&#x884C;IOE&#x76F8;&#x5173;&#x7684;&#x521D;&#x59CB;&#x5316;&#x5DE5;&#x4F5C;, &#x8C03;&#x7528;&#x540E;&#x7A0B;&#x5E8F;&#x624D;&#x80FD;&#x6B63;&#x786E;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B; IOE &#x76F8;&#x5173;&#x7684; API.</li>
+</ul>
+<p>&#x4EE5;&#x4E0B;&#x51FD;&#x6570;&#x5C06;&#x662F;&#x4F60;&#x4F1A;&#x5728;&#x672C;&#x8282;&#x4E2D;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x7684;&#xFF1A;</p>
+<ul>
+<li><code>unsigned long _uptime()</code> &#x8FD4;&#x56DE;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6BEB;&#x79D2;&#x6570;.</li>
+<li><code>void _draw_rect(const uint32_t *pixels, int x, int y, int w, int h)</code> &#x5C06; <code>pixels</code> &#x6307;&#x5B9A;&#x7684;&#x77E9;&#x5F62;&#x50CF;&#x7D20;&#x7ED8;&#x5236;&#x5230;&#x5C4F;&#x5E55;&#x4E2D;, &#x8303;&#x56F4;&#x4E3A; <code>(x, y)</code> &#x548C; <code>(x+w, y+h)</code> &#x4E24;&#x70B9;&#x8FDE;&#x7EBF;&#x4F5C;&#x4E3A;&#x5BF9;&#x89D2;&#x7EBF;&#x7684;&#x77E9;&#x5F62;&#x533A;&#x57DF;.</li>
+<li><del><code>void _draw_sync()</code> &#x5C06;&#x4E4B;&#x524D;&#x7684;&#x7ED8;&#x5236;&#x5185;&#x5BB9;&#x540C;&#x6B65;&#x5230;&#x5C4F;&#x5E55;&#x4E0A;</del> (&#x5728; NEMU &#x4E2D;&#x7ED8;&#x5236;&#x5185;&#x5BB9;&#x603B;&#x662F;&#x4F1A;&#x540C;&#x6B65;&#x5230;&#x5C4F;&#x5E55;&#x4E0A;, &#x56E0;&#x800C;&#x65E0;&#x9700;&#x5B9E;&#x73B0;&#x6B64; API).</li>
+<li><code>int _read_key()</code> &#x82E5;&#x6709;&#x6309;&#x952E;&#x72B6;&#x6001;, &#x8FD4;&#x56DE;&#x6309;&#x952E;&#x7684;&#x952E;&#x76D8;&#x7801;; &#x82E5;&#x65E0;&#x6309;&#x952E;&#x72B6;&#x6001;, &#x5219;&#x8FD4;&#x56DE; <code>_KEY_NONE</code>.</li>
+</ul>
+<h3 id="&#x4E32;&#x53E3;">&#x4E32;&#x53E3;</h3>
+<p>&#x4E32;&#x53E3;, &#x662F;&#x91C7;&#x7528;<a href="https://en.wikipedia.org/wiki/Serial_communication" target="_blank">&#x4E32;&#x884C;&#x901A;&#x4FE1;</a>&#x65B9;&#x5F0F;&#x7684;&#x6269;&#x5C55;&#x63A5;&#x53E3;, &#x8FD9;&#x662F;&#x4E00;&#x79CD;&#x6700;&#x7B80;&#x5355;&#x7684;&#x8F93;&#x51FA;&#x8BBE;&#x5907;. NEMU &#x6846;&#x67B6;&#x4EE3;&#x7801;&#x6A21;&#x62DF;&#x4E86;&#x4E32;&#x53E3;&#x7684;&#x529F;&#x80FD;, &#x4F4D;&#x4E8E; <code>nemu/src/device/serial.c</code>. &#x4EE3;&#x7801;&#x7B80;&#x5316;&#x4E86;&#x4E32;&#x53E3;&#x7684;&#x5927;&#x90E8;&#x5206;&#x529F;&#x80FD;, &#x4FDD;&#x7559;&#x4E86;&#x6570;&#x636E;&#x5BC4;&#x5B58;&#x5668;&#x548C;&#x72B6;&#x6001;&#x5BC4;&#x5B58;&#x5668;. &#x4E32;&#x53E3;&#x521D;&#x59CB;&#x5316;&#x65F6;&#x4F1A;&#x6CE8;&#x518C; <code>0x3F8</code> &#x5904;&#x957F;&#x5EA6;&#x4E3A; 8 &#x4E2A;&#x5B57;&#x8282;&#x7684;&#x7AEF;&#x53E3;&#x4F5C;&#x4E3A;&#x5176;&#x5BC4;&#x5B58;&#x5668;, &#x4F46;&#x4EE3;&#x7801;&#x4E2D;&#x53EA;&#x6A21;&#x62DF;&#x4E86;&#x5176;&#x4E2D;&#x7684;&#x4E24;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x529F;&#x80FD;. &#x7531;&#x4E8E; NEMU &#x4E32;&#x884C;&#x6A21;&#x62DF;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7684;&#x5DE5;&#x4F5C;, &#x4E32;&#x53E3;&#x7684;&#x72B6;&#x6001;&#x5BC4;&#x5B58;&#x5668;&#x53EF;&#x4EE5;&#x4E00;&#x76F4;&#x5904;&#x4E8E;&#x7A7A;&#x95F2;&#x72B6;&#x6001;; &#x6BCF;&#x5F53; CPU &#x5F80;&#x6570;&#x636E;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x5199;&#x5165;&#x6570;&#x636E;&#x65F6;, &#x4E32;&#x53E3;&#x4F1A;&#x5C06;&#x6570;&#x636E;&#x4F20;&#x9001;&#x5230;&#x4E3B;&#x673A;&#x7684;&#x6807;&#x51C6;&#x8F93;&#x51FA;.</p>
+<p>&#x4F60;&#x4F1A;&#x6CE8;&#x610F;&#x5230;&#x4E4B;&#x524D;&#x63D0;&#x8FC7;&#x7684; <code>_putc()</code> &#x51FD;&#x6570;, &#x5B83;&#x5C31;&#x662F;&#x901A;&#x8FC7;&#x4E32;&#x53E3;&#x8F93;&#x51FA;&#x7684;. &#x7136;&#x800C;&#x6211;&#x4EEC;&#x5E76;&#x672A;&#x5F80; AM &#x4E2D;&#x52A0;&#x5165; IOE &#x5374;&#x4F7F;&#x7528;&#x4E86;&#x5B83;, &#x4E8B;&#x5B9E;&#x4E0A;, AM &#x628A; <code>_putc()</code> &#x653E;&#x5728; TRM, &#x800C;&#x4E0D;&#x662F; IOE &#x4E2D;. &#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x89C9;&#x5F97;&#x6709;&#x4E9B;&#x5947;&#x602A;.</p>
+<blockquote>
+<pre><code>AM = TRM + IOE + ASYE + PTE + MPE
+</code></pre></blockquote>
+<p>&#x5C3D;&#x7BA1;&#x8BA1;&#x7B97;&#x7406;&#x8BBA;&#x4E2D;&#x63D0;&#x51FA;&#x7684;&#x6700;&#x539F;&#x59CB;&#x7684; TRM &#x4E0D;&#x5177;&#x6709;&#x8F93;&#x51FA;&#x7684;&#x80FD;&#x529B;, &#x4F46;&#x8F93;&#x51FA;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x73B0;&#x5B9E;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x6765;&#x8BF4;, &#x662F;&#x4E00;&#x4E2A;&#x6700;&#x57FA;&#x672C;&#x7684;&#x529F;&#x80FD;. &#x56E0;&#x6B64;&#x5728; AM &#x4E2D;, <code>_putc()</code> &#x7684;&#x52A0;&#x5165;&#x8BA9; TRM &#x5177;&#x6709;&#x8F93;&#x51FA;&#x5B57;&#x7B26;&#x7684;&#x80FD;&#x529B;. &#x88AB;&#x6269;&#x5145;&#x540E;&#x7684; TRM &#x66F4;&#x9760;&#x8FD1;&#x4E00;&#x4E2A;&#x5B9E;&#x7528;&#x7684;&#x673A;&#x5668;, &#x800C;&#x4E0D;&#x518D;&#x662F;&#x53EA;&#x4F1A;&#x8BA1;&#x7B97;&#x7684;&#x6570;&#x5B66;&#x6A21;&#x578B;.</p>
+<p><code>nexus-am/am/arch/x86-nemu/src/trm.c</code> &#x4E2D;&#x5DF2;&#x7ECF;&#x63D0;&#x4F9B;&#x4E86;&#x4E32;&#x53E3;&#x7684;&#x529F;&#x80FD;. &#x4E3A;&#x4E86;&#x8BA9;&#x7A0B;&#x5E8F;&#x4F7F;&#x7528;&#x4E32;&#x53E3;&#x8FDB;&#x884C;&#x8F93;&#x51FA;, &#x4F60;&#x8FD8;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O.</p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;2&#xFF1A;&#x5B9E;&#x73B0;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6307;&#x4EE4;&#xFF0C;&#x8FD0;&#x884C;Hello World</div></div><div class="panel-content"><p>&#x5B9E;&#x73B0; <code>IN</code>, <code>OUT</code> &#x6307;&#x4EE4;, &#x5728;&#x5B83;&#x4EEC;&#x7684; helper &#x51FD;&#x6570;&#x4E2D;&#x5206;&#x522B;&#x8C03;&#x7528; <code>pio_read()</code> &#x548C;  <code>pio_write()</code> &#x51FD;&#x6570;. &#x7531;&#x4E8E; NEMU &#x4E2D;&#x6709;&#x4E00;&#x4E9B;&#x8BBE;&#x5907;&#x7684;&#x884C;&#x4E3A;&#x662F;&#x6211;&#x4EEC;&#x81EA;&#x5B9A;&#x4E49;&#x7684;, &#x4E0E; QEMU &#x4E2D;&#x7684;&#x6807;&#x51C6;&#x8BBE;&#x5907;&#x7684;&#x884C;&#x4E3A;&#x4E0D;&#x5B8C;&#x5168;&#x4E00;&#x6837; (&#x4F8B;&#x5982; NEMU &#x4E2D;&#x7684;&#x4E32;&#x53E3;&#x603B;&#x662F;&#x5C31;&#x7EEA;&#x7684;, &#x4F46; QEMU &#x4E2D;&#x7684;&#x4E32;&#x53E3;&#x5E76;&#x4E0D;&#x662F;&#x8FD9;&#x6837;), &#x8FD9;&#x5BFC;&#x81F4;&#x5728; NEMU &#x4E2D;&#x6267;&#x884C; <code>IN</code> &#x548C; <code>OUT</code> &#x6307;&#x4EE4;&#x7684;&#x7ED3;&#x679C;&#x4E0E; QEMU &#x53EF;&#x80FD;&#x4F1A;&#x5B58;&#x5728;&#x4E0D;&#x53EF;&#x8C03;&#x6574;&#x7684;&#x504F;&#x5DEE;. &#x4E3A;&#x4E86;&#x4F7F;&#x5F97; differential testing &#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;, &#x6211;&#x4EEC;&#x5728;&#x8FD9;&#x4E24;&#x6761;&#x6307;&#x4EE4;&#x4E2D;&#x8C03;&#x7528;&#x4E86;&#x76F8;&#x5E94;&#x7684;&#x51FD;&#x6570;&#x6765;&#x8BBE;&#x7F6E; <code>is_skip_qemu</code> &#x6807;&#x5FD7;, &#x6765;&#x8DF3;&#x8FC7;&#x4E0E; QEMU &#x7684;&#x68C0;&#x67E5;.</p>
+<p>&#x5B9E;&#x73B0;&#x540E;, &#x5728; <code>nexus-am/am/arch/x86-nemu/src/trm.c</code> &#x4E2D;&#x5B9A;&#x4E49;&#x5B8F; <code>HAS_SERIAL</code>, &#x7136;&#x540E;&#x5728; <code>nexus-am/apps/hello</code> &#x76EE;&#x5F55;&#x4E0B;&#x952E;&#x5165;</p>
+<pre><code class="lang-bash">make run
+</code></pre>
+<p>&#x5728; NEMU &#x4E2D;&#x8FD0;&#x884C;&#x57FA;&#x4E8E; AM &#x7684; hello &#x7A0B;&#x5E8F;. &#x5982;&#x679C;&#x4F60;&#x7684;&#x5B9E;&#x73B0;&#x6B63;&#x786E;, &#x4F60;&#x5C06;&#x4F1A;&#x770B;&#x5230;&#x7A0B;&#x5E8F;&#x5F80;&#x7EC8;&#x7AEF;&#x8F93;&#x51FA;&#x4E86; 10 &#x884C; <code>Hello World!</code>  (&#x8BF7;&#x6CE8;&#x610F;&#x4E0D;&#x8981;&#x8BA9;&#x8F93;&#x51FA;&#x57CB;&#x6CA1;&#x5728; Log &#x7684;&#x6D77;&#x6D0B;&#x91CC;).</p>
+</div></div></p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">Hello World&#x8FD0;&#x884C;&#x5728;&#x54EA;&#xFF1F;</div></div><div class="panel-content"><p>&#x8FD9;&#x4E2A; hello &#x7A0B;&#x5E8F;&#x548C;&#x6211;&#x4EEC;&#x5728;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x8BFE;&#x7F16;&#x7A0B;&#x5199;&#x7684;&#x7B2C;&#x4E00;&#x4E2A; Hello World &#x7A0B;&#x5E8F;&#x4E00;&#x6837;&#x5417;&#xFF1F;&#x5982;&#x679C;&#x4E0D;&#x4E00;&#x6837;, &#x5B83;&#x4EEC;&#x5206;&#x522B;&#x8FD0;&#x884C;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x54EA;&#x4E2A;&#x5C42;&#x6B21;&#x4E2D;&#xFF1F;&#x8BF7;&#x7ED3;&#x5408; PA1 &#x56DE;&#x5FC6;&#x4E00;&#x4E0B;. </p>
+</div></div></p>
+<h3 id="&#x65F6;&#x949F;">&#x65F6;&#x949F;</h3>
+<p>&#x6709;&#x4E86;&#x65F6;&#x949F;, &#x7A0B;&#x5E8F;&#x624D;&#x53EF;&#x4EE5;&#x63D0;&#x4F9B;&#x65F6;&#x95F4;&#x76F8;&#x5173;&#x7684;&#x4F53;&#x9A8C;, &#x4F8B;&#x5982;&#x6E38;&#x620F;&#x7684;&#x5E27;&#x7387;, &#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x7684;&#x5FEB;&#x6162;&#x7B49;. <code>nemu/src/device/timer.c</code>&#x6A21;&#x62DF;&#x4E86;i8253&#x8BA1;&#x65F6;&#x5668;&#x7684;&#x529F;&#x80FD;. &#x8BA1;&#x65F6;&#x5668;&#x7684;&#x5927;&#x90E8;&#x5206;&#x529F;&#x80FD;&#x90FD;&#x88AB;&#x7B80;&#x5316;, &#x53EA;&#x4FDD;&#x7559;&#x4E86;&quot;&#x53D1;&#x8D77;&#x65F6;&#x949F;&#x4E2D;&#x65AD;&quot;&#x7684;&#x529F;&#x80FD;(&#x76EE;&#x524D;&#x6211;&#x4EEC;&#x4E0D;&#x4F1A;&#x7528;&#x5230;). &#x540C;&#x65F6;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7684;RTC(Real Time Clock), <strong>&#x521D;&#x59CB;&#x5316;&#x65F6;&#x5C06;&#x4F1A;&#x6CE8;&#x518C;<code>0x48</code>&#x5904;&#x7684;&#x7AEF;&#x53E3;&#x4F5C;&#x4E3A;RTC&#x5BC4;&#x5B58;&#x5668;, CPU&#x53EF;&#x4EE5;&#x901A;&#x8FC7;I/O&#x6307;&#x4EE4;&#x8BBF;&#x95EE;&#x8FD9;&#x4E00;&#x5BC4;&#x5B58;&#x5668;, &#x83B7;&#x5F97;&#x5F53;&#x524D;&#x65F6;&#x95F4;</strong>(&#x5355;&#x4F4D;&#x662F;ms).</p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;2.1&#xFF1A;&#x5B9E;&#x73B0; IOE &#x62BD;&#x8C61;</div></div><div class="panel-content"><p>&#x4F60;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x4E0A;&#x8FF0;&#x7684;&#x65F6;&#x949F;&#x8BBE;&#x5907;&#x548C;&#x952E;&#x76D8;&#x8BBE;&#x5907;&#x7684; API&#xFF0C;&#x672C;&#x5904;&#x4F60;&#x53EF;&#x4EE5;&#x5148;&#x53EA;&#x5B9E;&#x73B0;&#x65F6;&#x949F;&#x8BBE;&#x5907;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x4F60;&#x9700;&#x8981;&#x6839;&#x636E;&#x672C;&#x9875;&#x5185;&#x5BB9;&#x5B9E;&#x73B0;&#x76F8;&#x5173;&#x51FD;&#x6570;&#xFF0C;&#x4F46;&#x662F;<strong>&#x540E;&#x6587;&#x5BF9;&#x8BBE;&#x5907;&#x7684;&#x4ECB;&#x7ECD;&#x6216;&#x8BB8;&#x4F1A;&#x4E3A;&#x4F60;&#x7406;&#x89E3;&#x4EE5;&#x4E0A;&#x51FD;&#x6570;&#x63D0;&#x4F9B;&#x5E2E;&#x52A9;, &#x4F60;&#x53EF;&#x4EE5;&#x5148;&#x5F80;&#x4E0B;&#x9605;&#x8BFB;, &#x518D;&#x56DE;&#x6765;&#x5B8C;&#x6210;&#x8FD9;&#x91CC;&#x7684;&#x51FD;&#x6570;.</strong></p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;3&#xFF1A;&#x8FD0;&#x884C; timetest</div></div><div class="panel-content"><p>&#x5B9E;&#x73B0; <code>_uptime()</code> &#x540E;, &#x5728;NEMU&#x4E2D;&#x8FD0;&#x884C; <code>timetest</code> &#x7A0B;&#x5E8F; (<code>nexus-am/tests/timetest</code> &#x76EE;&#x5F55;&#x4E0B;), &#x7F16;&#x8BD1;&#x548C;&#x8FD0;&#x884C;&#x65B9;&#x5F0F;&#x53C2;&#x8003;&#x4E0A;&#x6587;, &#x6B64;&#x540E;&#x4E0D;&#x518D;&#x989D;&#x5916;&#x8BF4;&#x660E;. &#x5982;&#x679C;&#x4F60;&#x7684;&#x5B9E;&#x73B0;&#x6B63;&#x786E;, &#x4F60;&#x5C06;&#x4F1A;&#x770B;&#x5230;&#x7A0B;&#x5E8F;&#x6BCF;&#x9694; 1 &#x79D2;&#x8F93;&#x51FA;&#x4E00;&#x53E5;&#x65F6;&#x95F4;&#x4FE1;&#x606F;.</p>
+</div></div></p>
+<p><div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">native &#x4F5C;&#x4E3A; AM</div></div><div class="panel-content"><p>&quot;native&quot;&#x662F;&#x6307;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x9ED8;&#x8BA4;&#x7684;&#x8FD0;&#x884C;&#x65F6;&#x73AF;&#x5883;, &#x4F8B;&#x5982;&#x6211;&#x4EEC;&#x901A;&#x8FC7; <code>gcc hello.c</code> &#x7F16;&#x8BD1;&#x7A0B;&#x5E8F;&#x65F6;, &#x5C31;&#x4F1A;&#x7F16;&#x8BD1;&#x5230; GNU/Linux &#x63D0;&#x4F9B;&#x7684;&#x8FD0;&#x884C;&#x65F6;&#x73AF;&#x5883;. &#x4E8B;&#x5B9E;&#x4E0A;, native &#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x505A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; AM, &#x76EE;&#x524D;&#x53EA;&#x652F;&#x6301; TRM &#x548C; IOE. &#x4F46;&#x5F88;&#x5FEB;&#x4F60;&#x5C31;&#x4F1A;&#x770B;&#x5230;, native &#x4E5F;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x652F;&#x6491;&#x5F88;&#x591A;&#x7A0B;&#x5E8F;&#x7684;&#x8FD0;&#x884C;&#x4E86;.</p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;4&#xFF1A;&#x770B;&#x770B; NEMU &#x8DD1;&#x591A;&#x5FEB;</div></div><div class="panel-content"><p>&#x6709;&#x4E86;&#x65F6;&#x949F;&#x4E4B;&#x540E;, &#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x6D4B;&#x8BD5;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x8DD1;&#x591A;&#x5FEB;, &#x4ECE;&#x800C;&#x6D4B;&#x8BD5;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x6027;&#x80FD;. &#x5C1D;&#x8BD5;&#x5728;NEMU&#x4E2D;&#x4F9D;&#x6B21;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;benchmark(&#x5DF2;&#x7ECF;&#x6309;&#x7167;&#x7A0B;&#x5E8F;&#x7684;&#x590D;&#x6742;&#x5EA6;&#x6392;&#x5E8F;, &#x5747;&#x5728; <code>nexus-am/apps</code> &#x76EE;&#x5F55;&#x4E0B;; &#x53E6;&#x5916;&#x8DD1;&#x5206;&#x65F6;&#x8BF7;&#x6CE8;&#x91CA;&#x6389; <code>nemu/include/common.h</code> &#x4E2D;&#x7684; <code>DEBUG</code> &#x548C; <code>DIFF_TEST</code>&#x5B8F;, &#x4EE5;&#x83B7;&#x5F97;&#x8F83;&#x4E3A;&#x771F;&#x5B9E;&#x7684;&#x8DD1;&#x5206;):</p>
+<ul>
+<li>dhrystone</li>
+<li>coremark</li>
+<li>microbench</li>
+</ul>
+<p>&#x6210;&#x529F;&#x8FD0;&#x884C;&#x540E;&#x4F1A;&#x8F93;&#x51FA;&#x8DD1;&#x5206;. &#x8DD1;&#x5206;&#x4EE5; <code>i7-6700 @ 3.40GHz</code> &#x7684;&#x5904;&#x7406;&#x5668;&#x4E3A;&#x53C2;&#x7167;, <code>100000</code> &#x5206;&#x8868;&#x793A;&#x4E0E;&#x53C2;&#x7167;&#x673A;&#x5668;&#x6027;&#x80FD;&#x76F8;&#x5F53;, <code>100</code>&#x5206;&#x8868;&#x793A;&#x6027;&#x80FD;&#x4E3A;&#x53C2;&#x7167;&#x673A;&#x5668;&#x7684;&#x5343;&#x5206;&#x4E4B;&#x4E00;. &#x9664;&#x4E86;&#x548C;&#x53C2;&#x7167;&#x673A;&#x5668;&#x6BD4;&#x8F83;&#x4E4B;&#x5916;, &#x4E5F;&#x53EF;&#x4EE5;&#x548C;&#x5C0F;&#x4F19;&#x4F34;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;. &#x5982;&#x679C;&#x628A;&#x4E0A;&#x8FF0; benchmark &#x7F16;&#x8BD1;&#x5230; native(&#x7F16;&#x8BD1;&#x548C;&#x8FD0;&#x884C;&#x65F6;&#x6DFB;&#x52A0; <code>ARCH=native</code> &#x53C2;&#x6570;), &#x8FD8;&#x53EF;&#x4EE5;&#x6BD4;&#x8F83; native &#x7684;&#x6027;&#x80FD;.</p>
+<p>&#x53E6;&#x5916;, microbench &#x63D0;&#x4F9B;&#x4E86;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x89C4;&#x6A21;&#x7684;&#x6D4B;&#x8BD5;&#x96C6; <code>test</code> &#x548C; <code>ref</code>. &#x5176;&#x4E2D; <code>ref</code> &#x6D4B;&#x8BD5;&#x96C6;&#x89C4;&#x6A21;&#x8F83;&#x5927;, &#x7528;&#x4E8E;&#x8DD1;&#x5206;&#x6D4B;&#x8BD5;, &#x9ED8;&#x8BA4;&#x4F1A;&#x7F16;&#x8BD1; <code>ref</code> &#x6D4B;&#x8BD5;&#x96C6;; <code>test</code> &#x6D4B;&#x8BD5;&#x96C6;&#x89C4;&#x6A21;&#x8F83;&#x5C0F;, &#x7528;&#x4E8E;&#x6B63;&#x786E;&#x6027;&#x6D4B;&#x8BD5;, &#x9700;&#x8981;&#x5728;&#x8FD0;&#x884C; <code>make</code> &#x65F6;&#x663E;&#x5F0F;&#x6307;&#x5B9A;&#x7F16;&#x8BD1; <code>test</code> &#x6D4B;&#x8BD5;&#x96C6;:</p>
+<pre><code class="lang-bash">make INPUT=TEST
+</code></pre>
+<p>&#x4F60;&#x9700;&#x8981;&#x6210;&#x529F;&#x8FD0;&#x884C;&#x4E0A;&#x8FF0;&#x7684;&#x8DD1;&#x5206;&#x7A0B;&#x5E8F;&#x3002;</p>
+</div></div></p>
+<h3 id="&#x952E;&#x76D8;">&#x952E;&#x76D8;</h3>
+<p>&#x952E;&#x76D8;&#x662F;&#x6700;&#x57FA;&#x672C;&#x7684;&#x8F93;&#x5165;&#x8BBE;&#x5907;. &#x4E00;&#x822C;&#x952E;&#x76D8;&#x7684;&#x5DE5;&#x4F5C;&#x65B9;&#x5F0F;&#x5982;&#x4E0B;: &#x5F53;&#x6309;&#x4E0B;&#x4E00;&#x4E2A;&#x952E;&#x7684;&#x65F6;&#x5019;, &#x952E;&#x76D8;&#x5C06;&#x4F1A;&#x53D1;&#x9001;&#x8BE5;&#x952E;&#x7684;&#x901A;&#x7801;(make code); &#x5F53;&#x91CA;&#x653E;&#x4E00;&#x4E2A;&#x952E;&#x7684;&#x65F6;&#x5019;, &#x952E;&#x76D8;&#x5C06;&#x4F1A;&#x53D1;&#x9001;&#x8BE5;&#x952E;&#x7684;&#x65AD;&#x7801;(break code). <code>nemu/src/device/keyboard.c</code> &#x6A21;&#x62DF;&#x4E86; i8042 &#x901A;&#x7528;&#x8BBE;&#x5907;&#x63A5;&#x53E3;&#x82AF;&#x7247;&#x7684;&#x529F;&#x80FD;. &#x5176;&#x5927;&#x90E8;&#x5206;&#x529F;&#x80FD;&#x4E5F;&#x88AB;&#x7B80;&#x5316;, &#x53EA;&#x4FDD;&#x7559;&#x4E86;&#x952E;&#x76D8;&#x63A5;&#x53E3;. <strong>i8042 &#x521D;&#x59CB;&#x5316;&#x65F6;&#x4F1A;&#x6CE8;&#x518C; <code>0x60</code> &#x5904;&#x7684;&#x7AEF;&#x53E3;&#x4F5C;&#x4E3A;&#x6570;&#x636E;&#x5BC4;&#x5B58;&#x5668;, &#x6CE8;&#x518C; <code>0x64</code> &#x5904;&#x7684;&#x7AEF;&#x53E3;&#x4F5C;&#x4E3A;&#x72B6;&#x6001;&#x5BC4;&#x5B58;&#x5668;</strong>. &#x6BCF;&#x5F53;&#x7528;&#x6237;&#x6572;&#x4E0B;/&#x91CA;&#x653E;&#x6309;&#x952E;&#x65F6;, &#x5C06;&#x4F1A;&#x628A;&#x76F8;&#x5E94;&#x7684;&#x952E;&#x76D8;&#x7801;&#x653E;&#x5165;&#x6570;&#x636E;&#x5BC4;&#x5B58;&#x5668;, &#x540C;&#x65F6;&#x628A;&#x72B6;&#x6001;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x6807;&#x5FD7;&#x8BBE;&#x7F6E;&#x4E3A; <code>1</code>, &#x8868;&#x793A;&#x6709;&#x6309;&#x952E;&#x4E8B;&#x4EF6;&#x53D1;&#x751F;. CPU &#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7AEF;&#x53E3; I/O &#x8BBF;&#x95EE;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;, &#x83B7;&#x5F97;&#x952E;&#x76D8;&#x7801;. &#x5728; AM &#x4E2D;, &#x6211;&#x4EEC;&#x7EA6;&#x5B9A;&#x901A;&#x7801;&#x7684;&#x503C;&#x4E3A; <code>&#x65AD;&#x7801; + 0x8000</code>.</p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">&#x5982;&#x4F55;&#x68C0;&#x6D4B;&#x591A;&#x4E2A;&#x6309;&#x952E;&#x540C;&#x65F6;&#x88AB;&#x6309;&#x4E0B;&#xFF1F;</div></div><div class="panel-content"><p>&#x5728;&#x6E38;&#x620F;&#x4E2D;, &#x5F88;&#x591A;&#x65F6;&#x5019;&#x9700;&#x8981;&#x5224;&#x65AD;&#x73A9;&#x5BB6;&#x662F;&#x5426;&#x540C;&#x65F6;&#x6309;&#x4E0B;&#x4E86;&#x591A;&#x4E2A;&#x952E;, &#x4F8B;&#x5982; RPG &#x6E38;&#x620F;&#x4E2D;&#x7684;&#x516B;&#x65B9;&#x5411;&#x884C;&#x8D70;, &#x683C;&#x6597;&#x6E38;&#x620F;&#x4E2D;&#x7684;&#x7EC4;&#x5408;&#x62DB;&#x5F0F;&#x7B49;&#x7B49;. &#x6839;&#x636E;&#x952E;&#x76D8;&#x7801;&#x7684;&#x7279;&#x6027;, &#x4F60;&#x77E5;&#x9053;&#x8FD9;&#x4E9B;&#x529F;&#x80FD;&#x662F;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x7684;&#x5417;?</p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;2.2&#xFF1A;&#x5B9E;&#x73B0; IOE &#x62BD;&#x8C61;</div></div><div class="panel-content"><p>&#x4F60;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x4E0A;&#x8FF0;&#x7684;&#x65F6;&#x949F;&#x8BBE;&#x5907;&#x548C;&#x952E;&#x76D8;&#x8BBE;&#x5907;&#x7684; API&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x4E4B;&#x524D;&#x8FD8;&#x6CA1;&#x5B9E;&#x73B0;&#x952E;&#x76D8;&#x8BBE;&#x5907;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x6B64;&#x5B9E;&#x73B0;&#x3002;</p>
+<p>&#x4F60;&#x9700;&#x8981;&#x6839;&#x636E;&#x672C;&#x9875;&#x5185;&#x5BB9;&#x5B9E;&#x73B0;&#x76F8;&#x5173;&#x51FD;&#x6570;&#xFF0C;&#x4F46;&#x662F;<strong>&#x540E;&#x6587;&#x5BF9;&#x8BBE;&#x5907;&#x7684;&#x4ECB;&#x7ECD;&#x6216;&#x8BB8;&#x4F1A;&#x4E3A;&#x4F60;&#x7406;&#x89E3;&#x4EE5;&#x4E0A;&#x51FD;&#x6570;&#x63D0;&#x4F9B;&#x5E2E;&#x52A9;, &#x4F60;&#x53EF;&#x4EE5;&#x5148;&#x5F80;&#x4E0B;&#x9605;&#x8BFB;, &#x518D;&#x56DE;&#x6765;&#x5B8C;&#x6210;&#x8FD9;&#x91CC;&#x7684;&#x51FD;&#x6570;.</strong></p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;5&#xFF1A;&#x8FD0;&#x884C; keytest</div></div><div class="panel-content"><p>&#x5B9E;&#x73B0; <code>_read_key()</code> &#x51FD;&#x6570;&#x540E;, &#x5728; NEMU &#x4E2D;&#x8FD0;&#x884C; <code>keytest</code> &#x7A0B;&#x5E8F;(&#x5728; <code>nexus-am/tests/keytest</code> &#x76EE;&#x5F55;&#x4E0B;). &#x5982;&#x679C;&#x4F60;&#x7684;&#x5B9E;&#x73B0;&#x6B63;&#x786E;, &#x5728;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x65F6;&#x5F39;&#x51FA;&#x7684;&#x65B0;&#x7A97;&#x53E3;&#x4E2D;&#x6309;&#x4E0B;&#x6309;&#x952E;, &#x4F60;&#x5C06;&#x4F1A;&#x770B;&#x5230;&#x7A0B;&#x5E8F;&#x8F93;&#x51FA;&#x76F8;&#x5E94;&#x7684;&#x6309;&#x952E;&#x4FE1;&#x606F;.</p>
+</div></div></p>
+<h3 id="vga">VGA</h3>
+<p>VGA &#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x663E;&#x793A;&#x989C;&#x8272;&#x50CF;&#x7D20;, &#x662F;&#x6700;&#x5E38;&#x7528;&#x7684;&#x8F93;&#x51FA;&#x8BBE;&#x5907;. <code>nemu/src/device/vga.c</code> &#x6A21;&#x62DF;&#x4E86; VGA &#x7684;&#x529F;&#x80FD;. <strong>VGA &#x521D;&#x59CB;&#x5316;&#x65F6;&#x6CE8;&#x518C;&#x4E86;&#x4ECE; <code>0x40000</code> &#x5F00;&#x59CB;&#x7684;&#x4E00;&#x6BB5;&#x7528;&#x4E8E;&#x6620;&#x5C04;&#x5230; video memory &#x7684;&#x7269;&#x7406;&#x5185;&#x5B58;</strong>. &#x5728; NEMU &#x4E2D;, video memory &#x662F;&#x552F;&#x4E00;&#x4F7F;&#x7528;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x65B9;&#x5F0F;&#x8BBF;&#x95EE;&#x7684; I/O &#x7A7A;&#x95F4;. &#x4EE3;&#x7801;&#x53EA;&#x6A21;&#x62DF;&#x4E86; <code>400x300x32</code> &#x7684;&#x56FE;&#x5F62;&#x6A21;&#x5F0F;, &#x4E00;&#x4E2A;&#x50CF;&#x7D20;&#x5360; 32 &#x4E2A; bit &#x7684;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;, R(red), G(green), B(blue), A(alpha)&#x5404;&#x5360; 8 bit, &#x5176;&#x4E2D; VGA &#x4E0D;&#x4F7F;&#x7528; alpha &#x7684;&#x4FE1;&#x606F;. &#x5982;&#x679C;&#x4F60;&#x5BF9; VGA &#x7F16;&#x7A0B;&#x611F;&#x5174;&#x8DA3;, <a href="http://www.osdever.net/FreeVGA/home.htm" target="_blank">&#x8FD9;&#x91CC;</a>&#x6709;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; FreeVGA &#x7684;&#x9879;&#x76EE;, &#x91CC;&#x9762;&#x63D0;&#x4F9B;&#x4E86;&#x5F88;&#x591A; VGA &#x7684;&#x76F8;&#x5173;&#x8D44;&#x6599;.</p>
+<p><div class="panel panel-info"><div class="panel-heading"><div class="panel-icon"><i class="icon-info"></i></div><div class="panel-title">&#x795E;&#x5947;&#x7684;&#x8C03;&#x8272;&#x677F;</div></div><div class="panel-content"><p>&#x73B0;&#x4EE3;&#x7684;&#x663E;&#x793A;&#x5668;&#x4E00;&#x822C;&#x90FD;&#x652F;&#x6301; 24 &#x4F4D;&#x7684;&#x989C;&#x8272;(R, G, B&#x5404;&#x5360;8&#x4E2A;bit, &#x5171;&#x6709; <code>2^8*2^8*2^8</code> &#x7EA6; 1600 &#x4E07;&#x79CD;&#x989C;&#x8272;), &#x4E3A;&#x4E86;&#x8BA9;&#x5C4F;&#x5E55;&#x663E;&#x793A;&#x4E0D;&#x540C;&#x7684;&#x989C;&#x8272;&#x6210;&#x4E3A;&#x53EF;&#x80FD;, &#x5728; 8 &#x4F4D;&#x989C;&#x8272;&#x6DF1;&#x5EA6;&#x65F6;&#x4F1A;&#x4F7F;&#x7528;&#x8C03;&#x8272;&#x677F;&#x7684;&#x6982;&#x5FF5;. &#x8C03;&#x8272;&#x677F;&#x662F;&#x4E00;&#x4E2A;&#x989C;&#x8272;&#x4FE1;&#x606F;&#x7684;&#x6570;&#x7EC4;, &#x6BCF;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5360; 4 &#x4E2A;&#x5B57;&#x8282;, &#x5206;&#x522B;&#x4EE3;&#x8868; R(red), G(green), B(blue), A(alpha) &#x7684;&#x503C;. &#x5F15;&#x5165;&#x4E86;&#x8C03;&#x8272;&#x677F;&#x7684;&#x6982;&#x5FF5;&#x4E4B;&#x540E;, &#x4E00;&#x4E2A;&#x50CF;&#x7D20;&#x5B58;&#x50A8;&#x7684;&#x5C31;&#x4E0D;&#x518D;&#x662F;&#x989C;&#x8272;&#x7684;&#x4FE1;&#x606F;, &#x800C;&#x662F;&#x4E00;&#x4E2A;&#x8C03;&#x8272;&#x677F;&#x7684;&#x7D22;&#x5F15;: &#x5177;&#x4F53;&#x6765;&#x8BF4;, &#x8981;&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x50CF;&#x7D20;&#x7684;&#x989C;&#x8272;&#x4FE1;&#x606F;, &#x5C31;&#x8981;&#x628A;&#x5B83;&#x7684;&#x503C;&#x5F53;&#x4F5C;&#x4E0B;&#x6807;, &#x5728;&#x8C03;&#x8272;&#x677F;&#x8FD9;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x505A;&#x4E0B;&#x6807;&#x8FD0;&#x7B97;, &#x53D6;&#x51FA;&#x76F8;&#x5E94;&#x7684;&#x989C;&#x8272;&#x4FE1;&#x606F;. &#x56E0;&#x6B64;, &#x53EA;&#x8981;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x8C03;&#x8272;&#x677F;, &#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x65F6;&#x523B;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684; 256 &#x79CD;&#x989C;&#x8272;&#x4E86;.</p>
+<p>&#x5728;&#x4E00;&#x4E9B; 90 &#x5E74;&#x4EE3;&#x7684;&#x6E38;&#x620F;&#x4E2D;, &#x5F88;&#x591A;&#x6E10;&#x51FA;&#x6E10;&#x5165;&#x6548;&#x679C;&#x90FD;&#x662F;&#x901A;&#x8FC7;&#x8C03;&#x8272;&#x677F;&#x5B9E;&#x73B0;&#x7684;, &#x4F60;&#x77E5;&#x9053;&#x5176;&#x4E2D;&#x7684;&#x7384;&#x673A;&#x5417;?</p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;2.3&#xFF1A;&#x5B9E;&#x73B0; IOE &#x62BD;&#x8C61;</div></div><div class="panel-content"><p>&#x201C;&#x753B;&#x77E9;&#x5F62;&#x201D;&#x51FD;&#x6570;&#x7684;&#x5B9E;&#x73B0;&#x5DF2;&#x7ECF;&#x66F4;&#x65B0;&#x5230;&#x6846;&#x67B6;&#x4E2D;&#xFF0C;&#x8BF7;&#x4F60;&#x9605;&#x8BFB;&#x4EE3;&#x7801;&#x540E;&#x8BF4;&#x660E;&#x5176;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#x3002;</p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;6&#xFF1A;&#x6DFB;&#x52A0;&#x5185;&#x5B58;&#x6620;&#x5C04;I/O</div></div><div class="panel-content"><p>&#x5728; <code>paddr_read()</code> &#x548C; <code>paddr_write()</code>  (&#x4F4D;&#x4E8E; <code>nemu/src/memory/memory.c</code>) &#x4E2D;&#x52A0;&#x5165;&#x5BF9;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x5224;&#x65AD;. &#x901A;&#x8FC7; <code>is_mmio()</code> &#x51FD;&#x6570;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x7269;&#x7406;&#x5730;&#x5740;&#x662F;&#x5426;&#x88AB;&#x6620;&#x5C04;&#x5230; I/O &#x7A7A;&#x95F4;, &#x5982;&#x679C;&#x662F;, <code>is_mmio()</code> &#x4F1A;&#x8FD4;&#x56DE;&#x6620;&#x5C04;&#x53F7;, &#x5426;&#x5219;&#x8FD4;&#x56DE; <code>-1</code>. &#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x8BBF;&#x95EE;&#x9700;&#x8981;&#x8C03;&#x7528; <code>mmio_read()</code> &#x6216; <code>mmio_write()</code>, &#x8C03;&#x7528;&#x65F6;&#x9700;&#x8981;&#x63D0;&#x4F9B;&#x6620;&#x5C04;&#x53F7;. &#x5982;&#x679C;&#x4E0D;&#x662F;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x7684;&#x8BBF;&#x95EE;, &#x5C31;&#x8BBF;&#x95EE; <code>pmem</code>.</p>
+<p>&#x5927;&#x81F4;&#x4F2A;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-c">mmio_id &lt;- is_mmio(???);
+<span class="hljs-keyword">if</span> (mmio_id != <span class="hljs-number">-1</span>) {
+  &#x8C03;&#x7528; mmio_read/write(???);
+  &#x8FD4;&#x56DE;&#x8BFB;&#x5230;&#x7684;&#x6620;&#x5C04;&#x5185;&#x5B58;&#x6570;&#x636E;(&#x5199;&#x6620;&#x5C04;&#x5185;&#x5B58;&#x5219;&#x8FD4;&#x56DE;&#x7A7A;&#x5373;&#x53EF;);
+}
+</code></pre>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x4F60;&#x5728;&#x8FD4;&#x56DE;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x50CF;&#x6846;&#x67B6;&#x4E2D;&#x90A3;&#x6837;&#x5BF9;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x4E00;&#x5B9A;&#x7684;&#x4FEE;&#x9970;&#xFF0C;&#x601D;&#x8003;&#x4E00;&#x4E0B;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;</p>
+<p>&#x5B9E;&#x73B0;&#x540E;, &#x5728;NEMU&#x4E2D;&#x8FD0;&#x884C; <code>videotest</code> &#x7A0B;&#x5E8F; (&#x5728; <code>nexus-am/tests/videotest</code> &#x76EE;&#x5F55;&#x4E0B;). &#x5982;&#x679C;&#x5185;&#x5B58;&#x6620;&#x5C04; I/O &#x5B9E;&#x73B0;&#x6B63;&#x786E;, &#x4F60;&#x4F1A;&#x770B;&#x5230;&#x65B0;&#x7A97;&#x53E3;&#x4E2D;&#x8F93;&#x51FA;&#x4E86;&#x4E00;&#x4E9B;&#x989C;&#x8272;&#x4FE1;&#x606F;.</p>
+</div></div></p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x4EFB;&#x52A1;7&#xFF1A;&#x8FD0;&#x884C; videotest</div></div><div class="panel-content"><p>&#x5B9E;&#x73B0; <code>_draw_rect()</code> &#x540E;, &#x5728;NEMU&#x4E2D;&#x91CD;&#x65B0;&#x8FD0;&#x884C; <code>videotest</code>. &#x5982;&#x679C;&#x4F60;&#x7684;&#x5B9E;&#x73B0;&#x6B63;&#x786E;, &#x4F60;&#x5C06;&#x4F1A;&#x770B;&#x5230;&#x65B0;&#x7A97;&#x53E3;&#x4E2D;&#x8F93;&#x51FA;&#x4E86;&#x6591;&#x6593;&#x7684;&#x52A8;&#x753B;&#x6548;&#x679C;.</p>
+</div></div></p>
+<hr>
+<h2 id="&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;">&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;</h2>
+<p>&#x5728; NEMU &#x548C; AM &#x4E2D;&#x90FD;&#x5B8C;&#x6574;&#x5B9E;&#x73B0; IOE &#x540E;,  &#x6211;&#x4EEC;&#x8FD9;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7EC8;&#x4E8E;&#x50CF;&#x6A21;&#x50CF;&#x6837;, &#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4E00;&#x4E9B;&#x6709;&#x8DA3;&#x7684;&#x64CD;&#x4F5C;&#x4E86;.</p>
+<p><div class="panel panel-danger"><div class="panel-heading"><div class="panel-icon"><i class="icon-danger"></i></div><div class="panel-title">&#x7EC8;&#x6781;&#x4EFB;&#x52A1;&#xFF1A;&#x8FD0;&#x884C;&#x6253;&#x5B57;&#x5C0F;&#x6E38;&#x620F;</div></div><div class="panel-content"><p>&#x8FD0;&#x884C;&#x6253;&#x5B57;&#x5C0F;&#x6E38;&#x620F;(&#x5728; <code>nexus-am/apps/typing</code> &#x76EE;&#x5F55;&#x4E0B;). &#x6253;&#x5B57;&#x5C0F;&#x6E38;&#x620F;&#x6765;&#x6E90;&#x4E8E; 2013 &#x5E74; NJUCS oslab0 &#x7684;&#x6846;&#x67B6;&#x4EE3;&#x7801;. &#x4E3A;&#x4E86;&#x914D;&#x5408;&#x79FB;&#x690D;, &#x4EE3;&#x7801;&#x7684;&#x7ED3;&#x6784;&#x505A;&#x4E86;&#x5C11;&#x91CF;&#x8C03;&#x6574;, &#x540C;&#x65F6;&#x53BB;&#x6389;&#x4E86;&#x548C;&#x663E;&#x5B58;&#x4F18;&#x5316;&#x76F8;&#x5173;&#x7684;&#x90E8;&#x5206;, &#x5E76;&#x53BB;&#x6389;&#x4E86;&#x6D6E;&#x70B9;&#x6570;.</p>
+<p><img src="../images/TypingGame.jpg" alt=""></p>
+</div></div></p>
+<p>&#x6709;&#x5174;&#x8DA3;&#x7684;&#x540C;&#x5B66;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x5728; NEMU &#x4E2D;&#x8FD0;&#x884C; litenes (&#x5728; <code>nexus-am/apps/litenes</code> &#x76EE;&#x5F55;&#x4E0B;). &#x6CA1;&#x9519;, &#x6211;&#x4EEC;&#x5728; PA1 &#x7684;&#x5F00;&#x5934;&#x7ED9;&#x5927;&#x5BB6;&#x4ECB;&#x7ECD;&#x7684;&#x7EA2;&#x767D;&#x673A;&#x6A21;&#x62DF;&#x5668;, &#x73B0;&#x5728;&#x4E5F;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x5728; NEMU &#x4E2D;&#x8FD0;&#x884C;&#x8D77;&#x6765;&#x4E86;!</p>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;, &#x6211;&#x4EEC;&#x5728;&#x4E0D;&#x77E5;&#x4E0D;&#x89C9;&#x4E2D;&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x4E2A;&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;! &#x4F60;&#x5DF2;&#x7ECF;&#x5728;&#x5BFC;&#x8BBA;&#x8BFE;&#x4E0A;&#x5B66;&#x4E60;&#x5230;, &#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7531; 5 &#x4E2A;&#x90E8;&#x4EF6;&#x7EC4;&#x6210;: &#x8FD0;&#x7B97;&#x5668;, &#x63A7;&#x5236;&#x5668;, &#x5B58;&#x50A8;&#x5668;, &#x8F93;&#x5165;&#x8BBE;&#x5907;&#x548C;&#x8F93;&#x51FA;&#x8BBE;&#x5907;, &#x800C;&#x4F60;&#x5DF2;&#x7ECF;&#x5728; NEMU &#x4E2D;&#x628A;&#x5B83;&#x4EEC;&#x90FD;&#x5B9E;&#x73B0;&#x4E86;. &#x518D;&#x56DE;&#x8FC7;&#x5934;&#x6765;&#x5BA1;&#x89C6;&#x8FD9;&#x4E00;&#x65E2;&#x7B80;&#x5355;&#x53C8;&#x590D;&#x6742;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;: &#x8BF4;&#x5B83;&#x7B80;&#x5355;, &#x5B83;&#x53EA;&#x4E0D;&#x8FC7;&#x5728; TRM &#x7684;&#x57FA;&#x7840;&#x4E0A;&#x6DFB;&#x52A0;&#x4E86; IOE, &#x672C;&#x8D28;&#x4E0A;&#x8FD8;&#x662F;&quot;&#x53D6;&#x6307;-&gt;&#x8BD1;&#x7801;-&gt;&#x6267;&#x884C;&quot;&#x7684;&#x5DE5;&#x4F5C;&#x65B9;&#x5F0F;, &#x751A;&#x81F3;&#x53EA;&#x8981;&#x5177;&#x5907;&#x4E00;&#x4E9B;&#x6570;&#x5B57;&#x7535;&#x8DEF;&#x7684;&#x77E5;&#x8BC6;&#x5C31;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x6784;&#x5EFA;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x53EF;&#x80FD;&#x6027;; &#x8BF4;&#x5B83;&#x590D;&#x6742;, &#x5B83;&#x5374;&#x5DF2;&#x7ECF;&#x8DB3;&#x591F;&#x5F3A;&#x5927;&#x6765;&#x652F;&#x6491;&#x8FD9;&#x4E48;&#x591A;&#x7CBE;&#x5F69;&#x7EB7;&#x5448;&#x7684;&#x7A0B;&#x5E8F;. &#x90A3;&#x4E9B;&#x770B;&#x4F3C;&#x7B80;&#x5355;&#x4F46;&#x53C8;&#x53EF;&#x4EE5;&#x6298;&#x5C04;&#x51FA;&#x65E0;&#x9650;&#x53EF;&#x80FD;&#x7684;&#x4E8B;&#x7269;, &#x5176;&#x4E2D;&#x627F;&#x8F7D;&#x7684;&#x7F8E;&#x5999;&#x89C4;&#x5F8B;&#x5BB9;&#x6613;&#x4F7F;&#x4EBA;&#x4EEC;&#x4E3A;&#x4E4B;&#x9676;&#x9189;, &#x4E3A;&#x4E4B;&#x6298;&#x670D;. &#x8BA1;&#x7B97;&#x673A;, &#x5C31;&#x662F;&#x5176;&#x4E2D;&#x4E4B;&#x4E00;.</p>
+<p><div class="panel panel-success"><div class="panel-heading"><div class="panel-icon"><i class="icon-success"></i></div><div class="panel-title">&#x5FC5;&#x7B54;&#x9898;</div></div><div class="panel-content"><p>&#x4F60;&#x9700;&#x8981;&#x5728;&#x5B9E;&#x9A8C;&#x62A5;&#x544A;&#x4E2D;&#x7528;&#x81EA;&#x5DF1;&#x7684;&#x8BED;&#x8A00;, &#x5C3D;&#x53EF;&#x80FD;&#x8BE6;&#x7EC6;&#x5730;&#x56DE;&#x7B54;&#x4E0B;&#x5217;&#x95EE;&#x9898;. &#x8BF7;&#x4F60;&#x5728;&#x505A;&#x51FA;&#x76F8;&#x5E94;&#x5C1D;&#x8BD5;&#x524D;&#xFF0C;&#x5148;&#x901A;&#x8FC7; git &#x8BBE;&#x5B9A;&#x597D;&#x56DE;&#x6EDA;&#x70B9;&#xFF0C;&#x4EE5;&#x514D;&#x56E0;&#x4E3A;&#x67D0;&#x4E9B;&#x610F;&#x5916;&#x7684;&#x64CD;&#x4F5C;&#x5931;&#x8BEF;&#x5BFC;&#x81F4;&#x5199;&#x597D;&#x7684;&#x7A0B;&#x5E8F;&#x529F;&#x4E8F;&#x4E00;&#x7BD1;&#x3002;</p>
+<ul>
+<li><p><strong>&#x7F16;&#x8BD1;&#x4E0E;&#x94FE;&#x63A5;&#x2160;</strong></p>
+<p>&#x5728; <code>nemu/include/cpu/rtl.h</code> &#x4E2D;, &#x4F60;&#x4F1A;&#x770B;&#x5230;&#x7531; <code>static inline</code> &#x5F00;&#x5934;&#x5B9A;&#x4E49;&#x7684;&#x5404;&#x79CD; RTL &#x6307;&#x4EE4;&#x51FD;&#x6570;. &#x9009;&#x62E9;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x51FD;&#x6570;, &#x5206;&#x522B;&#x5C1D;&#x8BD5;&#x53BB;&#x6389; <code>static</code>, &#x53BB;&#x6389; <code>inline</code> &#x6216;&#x53BB;&#x6389;&#x4E24;&#x8005;, &#x7136;&#x540E;&#x91CD;&#x65B0;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;, &#x4F60;&#x4F1A;&#x770B;&#x5230;&#x53D1;&#x751F;&#x9519;&#x8BEF;. &#x8BF7;&#x5206;&#x522B;&#x89E3;&#x91CA;&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x53D1;&#x751F;&#x8FD9;&#x4E9B;&#x9519;&#x8BEF;? &#x4F60;&#x6709;&#x529E;&#x6CD5;&#x8BC1;&#x660E;&#x4F60;&#x7684;&#x60F3;&#x6CD5;&#x5417;?</p>
+</li>
+<li><p><strong>&#x7F16;&#x8BD1;&#x4E0E;&#x94FE;&#x63A5;&#x2161;</strong></p>
+<ol>
+<li>&#x5728; <code>nemu/include/common.h</code> &#x4E2D;&#x6DFB;&#x52A0;&#x4E00;&#x884C; <code>volatile static int dummy;</code>  &#x7136;&#x540E;&#x91CD;&#x65B0;&#x7F16;&#x8BD1; NEMU. &#x8BF7;&#x95EE;&#x91CD;&#x65B0;&#x7F16;&#x8BD1;&#x540E;&#x7684; NEMU &#x542B;&#x6709;&#x591A;&#x5C11;&#x4E2A; <code>dummy</code> &#x53D8;&#x91CF;&#x7684;&#x5B9E;&#x4F53;? &#x4F60;&#x662F;&#x5982;&#x4F55;&#x5F97;&#x5230;&#x8FD9;&#x4E2A;&#x7ED3;&#x679C;&#x7684;?</li>
+<li>&#x6DFB;&#x52A0;&#x4E0A;&#x9898;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x540E;, &#x518D;&#x5728; <code>nemu/include/debug.h</code> &#x4E2D;&#x6DFB;&#x52A0;&#x4E00;&#x884C; <code>volatile static int dummy;</code>  &#x7136;&#x540E;&#x91CD;&#x65B0;&#x7F16;&#x8BD1; NEMU. &#x8BF7;&#x95EE;&#x6B64;&#x65F6;&#x7684; NEMU &#x542B;&#x6709;&#x591A;&#x5C11;&#x4E2A; <code>dummy</code> &#x53D8;&#x91CF;&#x7684;&#x5B9E;&#x4F53;? &#x4E0E;&#x4E0A;&#x9898;&#x4E2D; <code>dummy</code> &#x53D8;&#x91CF;&#x5B9E;&#x4F53;&#x6570;&#x76EE;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;, &#x5E76;&#x89E3;&#x91CA;&#x672C;&#x9898;&#x7684;&#x7ED3;&#x679C;.</li>
+<li>&#x4FEE;&#x6539;&#x6DFB;&#x52A0;&#x7684;&#x4EE3;&#x7801;, &#x4E3A;&#x4E24;&#x5904; <code>dummy</code> &#x53D8;&#x91CF;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;: <code>volatile static int dummy = 0;</code>  &#x7136;&#x540E;&#x91CD;&#x65B0;&#x7F16;&#x8BD1; NEMU. &#x4F60;&#x53D1;&#x73B0;&#x4E86;&#x4EC0;&#x4E48;&#x95EE;&#x9898;? &#x4E3A;&#x4EC0;&#x4E48;&#x4E4B;&#x524D;&#x6CA1;&#x6709;&#x51FA;&#x73B0;&#x8FD9;&#x6837;&#x7684;&#x95EE;&#x9898;? (&#x56DE;&#x7B54;&#x5B8C;&#x672C;&#x9898;&#x540E;&#x53EF;&#x4EE5;&#x5220;&#x9664;&#x6DFB;&#x52A0;&#x7684;&#x4EE3;&#x7801;)</li>
+</ol>
+</li>
+<li><p><strong>I/O &#x7AEF;&#x53E3;&#x4E0E;&#x63A5;&#x53E3;</strong></p>
+<ol>
+<li>&#x5047;&#x5982;&#x91C7;&#x7528;&#x7AEF;&#x53E3;&#x6620;&#x5C04; I/O &#x7684;&#x7F16;&#x5740;&#x65B9;&#x5F0F;&#x4E0B;, I/O &#x7AEF;&#x53E3;&#x7684;&#x5730;&#x5740;&#x4ECE; <code>0000H</code> &#x5F00;&#x59CB;, &#x7CFB;&#x7EDF;&#x677F;&#x4FDD;&#x7559; 1K &#x4E2A; I/O &#x7AEF;&#x53E3;, &#x90A3;&#x4E48;&#x7CFB;&#x7EDF; I/O &#x5730;&#x5740;&#x7684;&#x8303;&#x56F4;&#x662F;&#x591A;&#x5C11;? &#x5047;&#x5982;&#x603B;&#x5171;&#x91C7;&#x7528; 16 &#x6761;&#x5730;&#x5740;&#x7EBF;&#x7F16;&#x5740;, &#x7528;&#x6237;&#x8BBE;&#x8BA1;&#x6269;&#x5C55;&#x63A5;&#x53E3;&#x65F6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7684;&#x7AEF;&#x53E3;&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x662F;&#x591A;&#x5C11;? &#x8BF7;&#x7ED9;&#x51FA;&#x7B54;&#x6848;&#x548C;&#x89E3;&#x6790;&#x3002;</li>
+<li>&#x4F60;&#x80FD;&#x60F3;&#x5230;&#x6709;&#x4EC0;&#x4E48;&#x6765;&#x81EA; CPU &#x7684;&#x4FE1;&#x53F7;&#x53C2;&#x4E0E;&#x4E86;&#x8BBE;&#x5907;&#x7684;&#x9009;&#x901A;&#x6216;&#x63A7;&#x5236;&#x5417;? &#x5728;&#x8FD9;&#x8FC7;&#x7A0B;&#x4E2D; CPU &#x548C;&#x8BBE;&#x5907;&#x4F20;&#x8F93;&#x4E86;&#x54EA;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x4FE1;&#x606F;? &#x8BF7;&#x4E3E;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x7684;&#x8BBE;&#x5907;&#x4F8B;&#x5B50;&#x8FDB;&#x884C;&#x8BF4;&#x660E;. </li>
+</ol>
+</li>
+</ul>
+</div></div></p>
+<hr>
+<p>&#x4EE5;&#x4E0A;&#x662F; PA2.3 &#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;&#xFF0C;PA2 &#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;&#x4E5F;&#x5230;&#x6B64;&#x4E3A;&#x6B62;&#x3002;&#x7B2C; 2 &#x9636;&#x6BB5;&#x4E2D;&#x4F60;&#x9700;&#x8981;&#x5B9E;&#x73B0; PA2.2 &#x548C; PA2.3 &#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2.2.html" class="navigation navigation-prev " aria-label="Previous page: 2.2 基本指令集">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../pa3/" class="navigation navigation-next " aria-label="Next page: PA3 - 异常和分页">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.3 输入输出","level":"1.5.3","depth":2,"next":{"title":"PA3 - 异常和分页","level":"1.6","depth":1,"path":"pa3/README.md","ref":"pa3/README.md","articles":[{"title":"3.1 异常控制流","level":"1.6.1","depth":2,"path":"pa3/3.1.md","ref":"pa3/3.1.md","articles":[]},{"title":"3.2 虚拟地址空间","level":"1.6.2","depth":2,"path":"pa3/3.2.md","ref":"pa3/3.2.md","articles":[]}]},"previous":{"title":"2.2 基本指令集","level":"1.5.2","depth":2,"path":"pa2/2.2.md","ref":"pa2/2.2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["panel","-sharing"],"pluginsConfig":{"panel":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"pa2/2.3.md","mtime":"2020-04-24T06:43:52.694Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-24T06:44:42.121Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
